@@ -1,0 +1,1517 @@
+
+
+Tue Mar 26 12:00:37 2013
+Command line: TestDisk
+
+TestDisk 6.13, Data Recovery Utility, November 2011
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.8.4-1-ck (#1 SMP PREEMPT Wed Mar 20 18:44:07 EDT 2013) x86_64
+Compiler: GCC 4.7
+Compilation date: 2013-01-29T15:43:06
+ext2fs lib: 1.42.7, ntfs lib: libntfs-3g, reiserfs lib: 0.3.0.5, ewf lib: none
+User is not root!
+Hard disk list
+Disk /dev/sr0 - 411 MB / 392 MiB - CHS 200854 1 1 (RO), sector size=2048 - HL-DT-ST DVDRAM GH40N, S/N:K5999QB5730, FW:MC00
+
+
+TestDisk exited normally.
+
+
+Tue Mar 26 12:00:55 2013
+Command line: TestDisk
+
+TestDisk 6.13, Data Recovery Utility, November 2011
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.8.4-1-ck (#1 SMP PREEMPT Wed Mar 20 18:44:07 EDT 2013) x86_64
+Compiler: GCC 4.7
+Compilation date: 2013-01-29T15:43:06
+ext2fs lib: 1.42.7, ntfs lib: libntfs-3g, reiserfs lib: 0.3.0.5, ewf lib: none
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+/dev/sda: native_max 1953525168 sectors
+/dev/sda: dco        1953525168 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       125045424 sectors
+/dev/sdb: user_max   125045424 sectors
+/dev/sdb: native_max 125045424 sectors
+/dev/sdb: dco        125045424 sectors
+/dev/sdd: LBA, HPA, LBA48, DCO support
+/dev/sdd: size       1250263728 sectors
+/dev/sdd: user_max   1250263728 sectors
+/dev/sdd: native_max 1250263728 sectors
+/dev/sdd: dco        1250263728 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - CHS 1 1 1, sector size=512
+/dev/sr0 is not an ATA disk
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - ST31000528AS, S/N:5VP2AQZ0, FW:CC44
+Disk /dev/sdb - 64 GB / 59 GiB - CHS 7783 255 63, sector size=512 - KINGSTON SV200S364G, S/N:42AA31H4KGQK, FW:E120506a
+Disk /dev/sdc - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - Seagate FreeAgent GoFlex, FW:0148
+Disk /dev/sdd - 640 GB / 596 GiB - CHS 77825 255 63, sector size=512 - WDC WD6400AAKS-22A7B2, S/N:WD-WCASY3943462, FW:01.03B01
+Disk /dev/sr0 - 411 MB / 392 MiB - CHS 200854 1 1 (RO), sector size=2048 - HL-DT-ST DVDRAM GH40N, S/N:K5999QB5730, FW:MC00
+
+Partition table type (auto): EFI GPT
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 1000 GB / 931 GiB - ST31000528AS
+Partition table type: EFI GPT
+
+Analyse Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1953525167 (expected 1953525167)
+hdr_lba_start=34
+hdr_lba_end=1953525134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+Current partition structure:
+ 1 P Unknown                     2048   20973567   20971520 [optional_1]
+ 2 P Unknown                 20973568   41945087   20971520 [services_1]
+ 3 P Unknown                 41945088   83888127   41943040 [variable_data_1]
+ 4 P Unknown                 83888128  125831167   41943040 [repository_1]
+ 5 P Unknown                125831168  188745727   62914560 [company_data_1]
+ 6 P Linux Swap             188745728  209717247   20971520 [swap_1]
+ 7 P Unknown                209717248  230688767   20971520 [mongodb_1]
+ 8 P Unknown                230688768  335546367  104857600 [backups_small_1]
+ 9 P Unknown               1243568128 1348425727  104857600 [virtualboxes_1]
+13 P Unknown               1033852928 1243568127  209715200 [HOME]
+Backup partition structure
+partition_save
+
+search_part()
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=180/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                     2048   20973567   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=1/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                 20973568   41945087   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+
+ReiserFS Marker at 2610/245/4
+
+recover_rfs
+block_count=5242880
+block_size=4096
+     MS Data                 41945088   83888127   41943040
+     ReiserFS 3.6 with standard journal, need recovery, 21 GB / 20 GiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=1/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                 84094976  105066495   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=1/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                105066496  126038015   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+
+XFS Marker at 7845/128/28
+
+recover_xfs
+     MS Data                126038016  650326015  524288000
+     XFS 6.2+ - bitmap version, 268 GB / 250 GiB
+FAT12 at 40707/98/40
+FAT1 : 1-2
+FAT2 : 3-4
+start_rootdir : 5
+Data : 37-2692
+sectors : 2696
+cluster_size : 4
+no_of_cluster : 664 (2 - 665)
+fat_length 2 calculated 2
+heads/cylinder 64 (FAT) != 255 (HD)
+sect/track 32 (FAT) != 63 (HD)
+
+FAT12 at 40707/98/40
+     MS Data                653964168  653966863       2696 [LIBERTE_EFI]
+     FAT12, 1380 KB / 1348 KiB
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/3, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=128
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 130734
+recover_EXT2: part_size 1045872
+     MS Data                653706638  654752509    1045872 [Liberté Linux]
+     EXT2 Sparse superblock Backup superblock, 535 MB / 510 MiB
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/49, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8176
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 1632349
+recover_EXT2: part_size 13058792
+     MS Data                648411238  661470029   13058792
+     EXT4 Large file Sparse superblock Backup superblock, 6686 MB / 6376 MiB
+
+LVM magic value at 41277/109/9
+
+block_group_nr 625
+
+recover_EXT2: "e2fsck -b 20480000 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=625/800, s_mnt_count=0/29, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 26214400
+recover_EXT2: part_size 209715200
+     MS Data                502378494  712093693  209715200
+     EXT4 Large file Sparse superblock Backup superblock, 107 GB / 100 GiB
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/280, s_mnt_count=0/23, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 9175040
+recover_EXT2: part_size 73400320
+     MS Data                712093694  785494013   73400320
+     EXT4 Large file Sparse superblock Backup superblock, 37 GB / 35 GiB
+NTFS at 48894/188/63
+heads/cylinder 0 (NTFS) != 255 (HD)
+sect/track 0 (NTFS) != 63 (HD)
+filesystem size           20971520
+sectors_per_cluster       8
+mft_lcn                   4
+mftmirr_lcn               1310719
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data                785494016  806465535   20971520 [VolNtfs]
+     NTFS, 10 GB / 10 GiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=17/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                806465536  827437055   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+
+recover_EXT2: s_block_group_nr=0/8, s_mnt_count=11/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 262144
+recover_EXT2: part_size 2097152
+     MS Data                874469376  876566527    2097152
+     EXT2 Large file Sparse superblock, 1073 MB / 1024 MiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=181/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+
+ReiserFS Marker at 55869/40/44
+
+recover_rfs
+block_count=5242880
+block_size=4096
+     MS Data                897538048  939481087   41943040
+     ReiserFS 3.6 with standard journal, 21 GB / 20 GiB
+
+recover_EXT2: s_block_group_nr=0/160, s_mnt_count=189/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 5242880
+recover_EXT2: part_size 41943040
+     MS Data                939481088  981424127   41943040
+     EXT4 Large file Sparse superblock, 21 GB / 20 GiB
+
+recover_EXT2: s_block_group_nr=0/120, s_mnt_count=187/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 3932160
+recover_EXT2: part_size 31457280
+     MS Data                981424128 1012881407   31457280
+     EXT4 Large file Sparse superblock, 16 GB / 15 GiB
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=3/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+     MS Data               1012881408 1033852927   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+
+recover_EXT2: s_block_group_nr=0/800, s_mnt_count=306/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 26214400
+recover_EXT2: part_size 209715200
+     MS Data               1033852928 1243568127  209715200 [sb-userdata]
+     EXT4 Large file Sparse superblock Recover, 107 GB / 100 GiB
+
+recover_EXT2: s_block_group_nr=0/400, s_mnt_count=6/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 13107200
+recover_EXT2: part_size 104857600
+     MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+
+recover_EXT2: s_block_group_nr=0/2289, s_mnt_count=1/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 75035648
+recover_EXT2: part_size 600285184
+     MS Data               1353238528 1953523711  600285184
+     EXT4 Large file Sparse superblock, 307 GB / 286 GiB
+
+Results
+   P MS Data                     2048   20973567   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+   P MS Data                 20973568   41945087   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+   P MS Data                 41945088   83888127   41943040
+     ReiserFS 3.6 with standard journal, need recovery, 21 GB / 20 GiB
+   P MS Data                 84094976  105066495   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+   P MS Data                105066496  126038015   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+     MS Data                126038016  650326015  524288000
+     XFS 6.2+ - bitmap version, 268 GB / 250 GiB
+     MS Data                502378494  712093693  209715200
+     EXT4 Large file Sparse superblock Backup superblock, 107 GB / 100 GiB
+     MS Data                648411238  661470029   13058792
+     EXT4 Large file Sparse superblock Backup superblock, 6686 MB / 6376 MiB
+     MS Data                653706638  654752509    1045872 [Liberté Linux]
+     EXT2 Sparse superblock Backup superblock, 535 MB / 510 MiB
+     MS Data                653964168  653966863       2696 [LIBERTE_EFI]
+     FAT12, 1380 KB / 1348 KiB
+   P MS Data                712093694  785494013   73400320
+     EXT4 Large file Sparse superblock Backup superblock, 37 GB / 35 GiB
+   P MS Data                785494016  806465535   20971520 [VolNtfs]
+     NTFS, 10 GB / 10 GiB
+   P MS Data                806465536  827437055   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+   P MS Data                874469376  876566527    2097152
+     EXT2 Large file Sparse superblock, 1073 MB / 1024 MiB
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+   P MS Data                897538048  939481087   41943040
+     ReiserFS 3.6 with standard journal, 21 GB / 20 GiB
+   P MS Data                939481088  981424127   41943040
+     EXT4 Large file Sparse superblock, 21 GB / 20 GiB
+   P MS Data                981424128 1012881407   31457280
+     EXT4 Large file Sparse superblock, 16 GB / 15 GiB
+   P MS Data               1012881408 1033852927   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+   P MS Data               1033852928 1243568127  209715200 [sb-userdata]
+     EXT4 Large file Sparse superblock Recover, 107 GB / 100 GiB
+   P MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+   P MS Data               1353238528 1953523711  600285184
+     EXT4 Large file Sparse superblock, 307 GB / 286 GiB
+
+
+dir_partition inode=2
+   P MS Data               1033852928 1243568127  209715200 [sb-userdata]
+     EXT4 Large file Sparse superblock Recover, 107 GB / 100 GiB
+Directory /
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 .
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 ..
+ 6029313 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 sorted
+ 5243000 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 a
+ 6029314 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 b
+ 5898241 drwx------  1000    100      4096 16-Feb-2013 05:51 .Trash-10009
+ 5243001 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 c
+ 6029315 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 d
+X4984068 -rw-r--r--  1000    100 789884928 14-Mar-2013 08:43 ubuntu-12.10-desktop-i386.iso
+X4984056 -rw-r--r--  1000    100  50047458 10-Mar-2013 22:57 lucene-4.1.0.tgz
+X4984064 -rw-r--r--  1000    100  50740224 15-Mar-2013 16:28 lucene-4.2.0.tgz
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virtimgs
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virimages
+
+
+dir_partition inode=2
+   P MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+Directory /
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 .
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 ..
+      11 drwx------ 10017      0     16384 21-Mar-2013 09:33 lost+found
+      12 -rw------- 10017  10018 2245046272 25-Mar-2013 16:33 tredius.vdi
+X 917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 .VirtualBox
+  917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 vb
+
+
+dir_partition inode=2
+   P MS Data               1353238528 1953523711  600285184
+     EXT4 Large file Sparse superblock, 307 GB / 286 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 .
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 ..
+      11 drwx------     0      0     16384 10-Aug-2012 07:50 lost+found
+
+
+dir_partition inode=2
+   P MS Data               1012881408 1033852927   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 .
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 ..
+      11 drwx------     0      0      4096 29-Dec-2012 22:50 lost+found
+X 483329 drwxr-x---  1000    100         0 25-Nov-2012 01:30 scrape
+X 622593 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bc
+X 425985 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hsperfdata_susy
+X 557057 drwx------  1000    100         0 25-Nov-2012 01:30 icedteaplugin-susy
+X 237569 drwx------  1000    100         0 25-Nov-2012 01:30 tmux-1000
+X 434177 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bin
+X 253953 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Jr2tj0
+X  65537 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .X11-unix
+X 147457 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .ICE-unix
+X 409601 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .XIM-unix
+X 589825 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .font-unix
+X 335873 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .Test-unix
+X 311297 drwxr-x---     0      0         0 25-Nov-2012 01:30 yaourt-tmp-root
+X 262145 drwxr-x--- 10007    100         0 25-Nov-2012 01:30 hsperfdata_robj
+X  32769 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wf13K1
+X 475137 drwx------  1000    100         0 18-Dec-2012 11:16 .esd-1000
+X     11 drwx------     0      0      4096 29-Dec-2012 22:50 .X0-lock
+X 163841 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Nxf1A9
+X 630785 drwx------  1000    100         0 25-Nov-2012 01:30 pulse-uLANL9oDkHjr
+X 540673 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-tuejS5
+X 491521 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-vUvyK5
+X 606209 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-LORdVI
+X 278529 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-fx1ZV3
+X 212993 drwxr-x---  1000    100         0 25-Nov-2012 01:30 a
+X 417793 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.xxODmZ
+X 172033 drwxr-x---  1000    100         0 25-Nov-2012 01:30 cc
+X     23 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitignore
+X  98305 drwxr-x---  1000    100         0 25-Nov-2012 01:30 yaourt-tmp-susy
+X 450561 drwx------     0      0         0 24-Nov-2012 23:52 vloceGX
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 vteF9LAOW
+X 524289 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-9Qu0lK
+X 614401 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wolGGk
+X 188417 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-ldGYoE
+X 114689 drwx------  1000    100         0 25-Nov-2012 01:30 CRX_75DAF8CB7768
+X 360449 drwxr-x---  1000    100         0 25-Nov-2012 01:30 dd
+X     12 -rw-------  1000    100       128 24-Nov-2012 23:51 docpad.js
+X 393217 drwxr-x---  1000    100         0 25-Nov-2012 01:30 ee
+X     31 -rw-r-----  1000    100         0 24-Nov-2012 23:51 templates.js
+X 507905 drwxr-x---  1000    100         0 25-Nov-2012 01:30 k
+X     34 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitattributes
+X     35 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .jshintrc
+X     36 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .editorconfig
+X 245761 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-jNTNnV
+X 573441 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-KZoGDHtn16aK
+X 319489 drwxr-x---  1000    100         0 25-Nov-2012 01:30 zz
+X 458753 drwx------  1000    100         0 18-Dec-2012 11:16 .vbox-susy-ipc
+X 106497 drwxr-x---  1000    100         0 25-Nov-2012 01:30 jade
+X 548865 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp
+X 155649 drwxr-x---  1000    100         0 25-Nov-2012 01:30 n
+X     13 -rw-------  1000    100      2069 24-Nov-2012 23:52 BE5HTQuE.zip.part
+X 647169 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp-1
+X  16385 drwxr-x---  1000    100         0 25-Nov-2012 01:30 fc
+X 122881 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hh
+X 196609 drwxr-x---  1000    100         0 25-Nov-2012 01:30 uu
+X 442369 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.IOjtvS
+X     16 -rw-------  1000    100         0 24-Nov-2012 23:51 HTML5Video.org - HTML5 Video Library & Web Video Developer Community.html
+X     24 -rw-r-----  1000    100         0 24-Nov-2012 23:51 app.js
+X     25 -rw-r-----  1000    100         0 24-Nov-2012 23:51 server.js
+X     26 -rw-r-----  1000    100         0 24-Nov-2012 23:51 orbs.js
+X 565249 drwxr-x---  1000    100         0 25-Nov-2012 01:30 gg
+X     46 -rw-------  1000    100         0 24-Nov-2012 23:51 YhxdOJ0I.part
+X 598017 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-BYmhQD
+X 499713 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-CNe0QK
+X 131073 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-TZBfpM
+X 139265 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-kUVrxQ
+X 270337 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-1AzStUFuwp4G
+X 516097 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.8bALng
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 glM8ZzFu
+X     61 -rw-------  1000    100         0 24-Nov-2012 19:30 ccqPR4Uk.s
+
+
+dir_partition inode=2
+   P MS Data                981424128 1012881407   31457280
+     EXT4 Large file Sparse superblock, 16 GB / 15 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 ..
+  790690 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  655427 drwxr-xr-x     0      0      4096 20-Feb-2012 05:05 diet
+  788168 drwxr-xr-x     0      0      4096 30-Oct-2012 12:51 cuda
+  787261 drwxr-xr-x     0      0      4096 24-Oct-2012 19:43 dropbox
+  787362 drwxr-xr-x     0      0      4096  1-Nov-2012 04:02 graphite
+  787106 drwxr-xr-x     0      0      4096 14-Oct-2012 10:47 samsung
+  790641 drwxr-xr-x     0      0      4096 16-Apr-2012 17:02 qtemu
+  786434 drwxr-xr-x     0      0      4096 23-Dec-2012 00:17 sabnzbd
+  529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 titanium
+  790691 drwxr-xr-x     0      0      4096 22-Oct-2012 22:18 sphinx4
+  131073 drwxr-xr-x     0      0      4096 25-Nov-2012 04:47 cloud9
+  262145 drwxr-xr-x  1000    100      4096  4-Nov-2012 13:46 radrails
+  655361 drwxr-x---  1000      0      4096 27-Nov-2012 09:22 ace
+  655669 drwxr-xr-x     0      0      4096 17-Nov-2012 02:46 rapidminer
+  655387 drwxr-xr-x     0      0      4096 28-Nov-2012 03:33 sublime-text
+  267992 drwxr-xr-x     0      0      4096 24-Jan-2012 14:04 maven
+  393365 drwxr-xr-x     0      0      4096 26-Dec-2012 21:39 chromium-browser
+X 657495 -rw-r-----  1000    100    223389 27-Nov-2012 09:21 dev
+  657998 drwxr-sr-x    33     33      4096  5-Nov-2012 17:50 doc
+  395383 drwxr-x---     0      0      4096  1-Dec-2012 16:48 nodebak
+  524289 drwxr-x---  1000    100      4096 19-Dec-2012 15:34 linguistics
+  396331 drwxr-xr-x     0      0      4096 21-Dec-2012 22:54 Adobe
+  268037 drwxr-xr-x     0      0      4096 26-Dec-2012 21:37 google
+  396707 drwxr-xr-x     0      0      4096 24-Dec-2012 18:55 metasploit
+  268128 drwx------  1000    100      4096 19-Dec-2012 07:03 iagalah
+X 395942 -rw-r--r--     0      0       371 27-Nov-2012 19:46 test
+X   4821 lrwxrwxrwx  1000     33         9 11-Nov-2012 11:16 tredius
+X 528856 drwxr-x---  1000    100      4096 19-Dec-2012 13:55 SenchaSDKTools-2.0.0-beta3
+X 529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 Titanium_Studio
+
+
+dir_partition inode=2
+   P MS Data                939481088  981424127   41943040
+     EXT4 Large file Sparse superblock, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 .
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 ..
+      11 drwx------     0      0     16384  2-Nov-2012 12:40 lost+found
+  799791 drwxr-xr-x     0      0      4096 29-Dec-2012 02:41 man
+  924531 drwxr-xr-x     0      0    126976 29-Dec-2012 02:57 bin
+  298688 drwxr-xr-x     0Error: Couldn't find stat data of directory /../.
+      0     69632 29-Dec-2012 02:51 include
+  930438 drwxr-xr-x     0      0    167936 29-Dec-2012 02:51 lib
+  921272 drwxr-xr-x 10009  10008      4096 19-Dec-2012 11:29 local
+  185099 drwxr-xr-x     0      0     12288 29-Dec-2012 02:57 sbin
+  927771 drwxr-xr-x     0      0     12288 29-Dec-2012 02:51 share
+  524290 drwxr-xr-x     0      0      4096 23-Dec-2012 08:48 src
+  185084 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 x86_64-unknown-linux-gnu
+  794822 drwxr-xr-x     0      0     32768 29-Dec-2012 02:51 lib32
+  396789 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 i486-mingw32
+
+
+dir_partition inode=2
+   P MS Data                897538048  939481087   41943040
+     ReiserFS 3.6 with standard journal, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0       512 29-Dec-2012 20:16 .
+       5 drwxr-xr-x     0      0       120 29-Dec-2012 02:50 db
+    7412 drwxr-xr-x     0      0       104 29-Dec-2012 20:16 yp
+      10 drwxr-xr-x     0      0       200 17-Nov-2012 06:11 abs
+   16448 drwxr-xr-x     0      0      1216 30-Dec-2012 09:40 lib
+    4495 drwxr-xr-x     0      0      1880 30-Dec-2012 13:51 log
+    2855 drwxr-xr-x     0      0        48  4-Dec-2012 02:02 opt
+    3967 lrwxrwxrwx     0      0         6  4-Dec-2012 02:02 run
+    4582 drwxrwxrwt     0      0       728 30-Dec-2012 13:48 tmp
+    3966 lrwxrwxrwx     0      0        10  4-Dec-2012 02:02 mail
+    3968 lrwxrwxrwx     0      0        11  4-Dec-2012 02:02 lock
+   16445 drwxr-xr-x     0      0       336 18-Dec-2012 11:36 cache
+   16406 drwxr-xr-x     0      0        48  3-Oct-2012 22:32 empty
+    3965 drwxrwxr-x     0     50        48  4-Dec-2012 02:02 games
+    2854 drwxr-xr-x     0      0        48  4-Dec-2012 02:02 local
+   16409 drwxr-xr-x     0      0       144 29-Dec-2012 20:20 spool
+   16433 drwxr-xr-x     0      0        48 21-Oct-2012 15:58 backup
+       3 drwx------     0      0        48  2-Nov-2012 13:06 .reiserfs_priv
+   16434 drwxrwxr-x    30     30       192 25-Oct-2012 12:29 nagios
+   16442 drwx------     0      0        80 14-Oct-2012 11:04 net-snmp
+
+
+dir_partition inode=2
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+  393561 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  262145 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 var
+  393505 drwxr-xr-x     0      0      4096 29-Dec-2012 02:51 bin
+  397328 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 boot
+  400065 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 dev
+  438714 drwxr-xr-x     0      0     12288 29-Dec-2012 09:38 etc
+  397329 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 home
+X     11 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib64
+  131502 drwxr-xr-x     0      0      4096 18-Dec-2012 13:21 mnt
+   16387 drwxr-xr-x     0      0      4096 26-Dec-2012 16:56 media
+  438707 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 opt
+  397327 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 proc
+  393727 drwxr-x---     0      0      4096 29-Dec-2012 12:59 root
+  438706 drwxr-xr-x     0      0      4096  2-Nov-2012 14:18 run
+  393562 drwxr-xr-x     0      0      4096 29-Dec-2012 02:50 sbin
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 srv
+  393218 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 sys
+  393221 drwxrwxrwt     0      0     12288 29-Dec-2012 09:38 tmp
+   73730 drwxr-xr-x     0      0      4096  2-Nov-2012 13:13 usr
+X 131501 drwxr-x---     0      0         0 29-Dec-2012 13:01 jail
+  393219 drwxr-xr-x     0      0      4096 21-Oct-2012 07:39 .config
+  438710 drwxr-xr-x     0      0      4096 22-Oct-2012 09:28 .kde4
+X  16386 -rw-r--r--  1000    100         0 24-Dec-2012 02:45 mount
+  263262 drwxr-xr-x     0      0      4096 13-Nov-2012 15:45 tmpfs
+X 263263 drwxrwxr-x 10009  10008         0 29-Dec-2012 13:01 data
+X  15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead.new
+   15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 .ismount-test-file
+
+dir_partition inode=397330
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /srv
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+X 397331 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 jail
+X 397332 drwxrwsr-x    33     33         0 29-Dec-2012 13:16 http
+X 400061 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 nt
+X 174055 drwxr-x---  1234  10005         0 29-Dec-2012 13:16 build
+X 403721 dr-xr-xr-x     0     11         0 29-Dec-2012 13:16 ftp
+X 400063 -rw-r--r--     0      0       103 22-Nov-2012 15:20 ftp
+
+dir_partition inode=174055
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /srv/build
+Directory /srv
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+X 397331 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 jail
+X 397332 drwxrwsr-x    33     33         0 29-Dec-2012 13:16 http
+X 400061 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 nt
+X 174055 drwxr-x---  1234  10005         0 29-Dec-2012 13:16 build
+X 403721 dr-xr-xr-x     0     11         0 29-Dec-2012 13:16 ftp
+X 400063 -rw-r--r--     0      0       103 22-Nov-2012 15:20 ftp
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+  393561 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  262145 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 var
+  393505 drwxr-xr-x     0      0      4096 29-Dec-2012 02:51 bin
+  397328 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 boot
+  400065 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 dev
+  438714 drwxr-xr-x     0      0     12288 29-Dec-2012 09:38 etc
+  397329 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 home
+X     11 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib64
+  131502 drwxr-xr-x     0      0      4096 18-Dec-2012 13:21 mnt
+   16387 drwxr-xr-x     0      0      4096 26-Dec-2012 16:56 media
+  438707 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 opt
+  397327 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 proc
+  393727 drwxr-x---     0      0      4096 29-Dec-2012 12:59 root
+  438706 drwxr-xr-x     0      0      4096  2-Nov-2012 14:18 run
+  393562 drwxr-xr-x     0      0      4096 29-Dec-2012 02:50 sbin
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 srv
+  393218 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 sys
+  393221 drwxrwxrwt     0      0     12288 29-Dec-2012 09:38 tmp
+   73730 drwxr-xr-x     0      0      4096  2-Nov-2012 13:13 usr
+X 131501 drwxr-x---     0      0         0 29-Dec-2012 13:01 jail
+  393219 drwxr-xr-x     0      0      4096 21-Oct-2012 07:39 .config
+  438710 drwxr-xr-x     0      0      4096 22-Oct-2012 09:28 .kde4
+X  16386 -rw-r--r--  1000    100         0 24-Dec-2012 02:45 mount
+  263262 drwxr-xr-x     0      0      4096 13-Nov-2012 15:45 tmpfs
+X 263263 drwxrwxr-x 10009  10008         0 29-Dec-2012 13:01 data
+X  15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead.new
+   15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 .ismount-test-file
+
+
+dir_partition inode=2
+   P MS Data                874469376  876566527    2097152
+     EXT2 Large file Sparse superblock, 1073 MB / 1024 MiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  2-Nov-2012 12:39 .
+       2 drwxr-xr-x     0      0      4096  2-Nov-2012 12:39 ..
+      11 drwx------     0      0     16384  2-Nov-2012 12:39 lost+found
+
+
+dir_partition inode=2
+   P MS Data                806465536  827437Error: Couldn't find stat data of directory /../.
+055   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x  1000   1002      4096  3-Jun-2012 02:50 .
+       2 drwxr-xr-x  1000   1002      4096  3-Jun-2012 02:50 ..
+      11 drwx------  1000   1002     16384 30-May-2012 20:42 lost+found
+X 524291 drwxrwxr-x  1000   1000      4096  3-Jun-2012 00:53 acme
+X     12 -rw-rw-r--  1000   1002    539204  1-Jun-2012 14:31 vmware1
+  131074 drwxrwxr-x  1000   1000      4096  3-Jun-2012 02:50 uploadme
+  524293 drwxrwxr-x  1000   1000      4096  3-Jun-2012 02:50 sortme
+  524289 drwxrwxr-x  1000   1002      4096  2-Jun-2012 14:47 box.com
+  131073 drwxrwxr-x  1000   1002      4096  2-Jun-2012 16:01 dropbox.com
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+   P MS Data                785494016  806465535   20971520 [VolNtfs]
+     NTFS, 10 GB / 10 GiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 31-May-2012 01:40 .
+       5 dr-xr-xr-x     0      0         0 31-May-2012 01:40 ..
+     282 dr-xr-xr-x     0      0         0 31-May-2012 01:40 alltools
+      73 dr-xr-xr-x     0      0         0 21-May-2012 05:37 uberoid
+      64 dr-xr-xr-x     0      0         0 21-May-2012 05:31 wallpapers
+     378 dr-xr-xr-x     0      0         0 31-May-2012 01:40 zarchive
+
+   P MS Data                712093694  785494013   73400320
+     EXT4 Large file Sparse superblock Backup superblock, 37 GB / 35 GiB
+Can't open filesystem. Filesystem seems damaged.
+
+
+dir_partition inode=0
+     MS Data                653964168  653966863       2696 [LIBERTE_EFI]
+     FAT12, 1380 KB / 1348 KiB
+Directory /
+       3 drwxr-xr-x     0      0         0 16-Jun-2012 09:18 EFI
+
+     MS Data                653706638  654752509    1045872 [Liberté Linux]
+     EXT2 Sparse superblock Backup superblock, 535 MB / 510 MiB
+Can't open filesystem. Filesystem seems damaged.
+
+     MS Data                648411238  661470029   13058792
+     EXT4 Large file Sparse superblock Backup superblock, 6686 MB / 6376 MiB
+Can't open filesystem. Filesystem seems damaged.
+
+     MS Data                502378494  712093693  209715200
+     EXT4 Large file Sparse superblock Backup superblock, 107 GB / 100 GiB
+Can't open filesystem. Filesystem seems damaged.
+
+
+dir_partition inode=2
+   P MS Data                105066496  126038015   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 ..
+      11 drwx------     0      0     16384  6-Oct-2012 18:29 lost+found
+
+
+dir_partition inode=2
+   P MS Data                 84094976  105066495   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 ..
+      11 drwx------     0      0     16384  6-Oct-2012 18:29 lost+found
+
+
+dir_partition inode=2
+   P MS Data                 41945088   83888127   41943040
+     ReiserFS 3.6 with standard journal, need recovery, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0       440 26-Mar-2013 05:04 .
+     189 drwxr-xr-x     0      0       120 26-Mar-2013 04:03 db
+    1694 drwxr-xr-x     0      0        96  7-Sep-2012 18:51 abs
+       7 drwxr-xr-x     0      0       792 26-Mar-2013 09:16 lib
+     177 drwxr-xr-x     0      0       552 26-Mar-2013 11:48 log
+     170 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 opt
+     179 lrwxrwxrwx     0      0         6 14-Mar-2013 20:20 run
+     175 drwxrwxrwt     0      0       968 26-Mar-2013 12:07 tmp
+     172 lrwxrwxrwx     0      0        10 14-Mar-2013 20:20 mail
+     173 lrwxrwxrwx     0      0        11 14-Mar-2013 20:20 lock
+    6404 drwxr-xr-x   998     99        80 26-Mar-2013 05:04 darkstat
+       4 drwxr-xr-x     0      0       200 26-Mar-2013 06:52 cache
+     174 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 empty
+     178 drwxrwxr-x     0     50        72 25-Mar-2013 19:36 games
+     171 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 local
+     176 drwxr-xr-x     0      0       168 26-Mar-2013 06:52 spool
+       3 drwx------     0      0        48 30-Dec-2012 13:58 .reiserfs_priv
+
+
+dir_partition inode=2
+   P MS Data               1353238528 1953523711  600285184
+     EXT4 Large file Sparse superblock, 307 GB / 286 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 .
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 ..
+      11 drwx------     0      0     16384 10-Aug-2012 07:50 lost+found
+
+
+dir_partition inode=2
+   P MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+Directory /
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 .
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 ..
+      11 drwx------ 10017      0     16384 21-Mar-2013 09:33 lost+found
+      12 -rw------- 10017  10018 2245046272 25-Mar-2013 16:33 tredius.vdi
+X 917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 .VirtualBox
+  917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 vb
+
+dir_partition inode=917505
+   P MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+Directory /vb
+  917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 .
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 ..
+  917506 -rw------- 10017    100      1319 25-Dec-2012 02:01 VBoxSVC.log.8
+  917507 -rw------- 10017    100      9752 15-Mar-2013 00:05 VBoxSVC.log.1
+  917508 -rw------- 10017    100      1237 13-Mar-2013 18:45 compreg.dat
+  917509 -rw------- 10017    100      3384 13-Mar-2013 18:46 VBoxSVC.log.4
+  917510 -rw------- 10017    100      3203 14-Mar-2013 10:30 VBoxSVC.log.2
+  917511 -rw------- 10017    100      2701 15-Mar-2013 00:54 VirtualBox.xml-prev
+  917512 -rw------- 10017    100      2755 15-Mar-2013 00:54 VirtualBox.xml
+  917513 -rw------- 10017    100     29283 15-Mar-2013 08:13 VBoxSVC.log
+  917514 -rw------- 10017    100      2780 28-Dec-2012 02:31 VBoxSVC.log.6
+  917515 -rw-r--r-- 10017    100  57415680 14-Mar-2013 09:48 VBoxGuestAdditions_4.2.8.iso
+  917516 -rw------- 10017    100      1583 15-Mar-2013 00:02 selectorwindow.log.1
+  917517 -rw------- 10017    100     25166 26-Dec-2012 21:31 VBoxSVC.log.7
+  917518 -rw------- 10017    100     15330 14-Mar-2013 10:15 VBoxSVC.log.3
+  917519 -rw------- 10017    100      1170 15-Mar-2013 00:10 selectorwindow.log
+  917520 -rw------- 10017    100     21389 13-Mar-2013 18:45 xpti.dat
+  917521 -rw------- 10017    100      3812 29-Dec-2012 01:36 VBoxSVC.log.5
+  917522 -rw------- 10017    100  57401344 26-Dec-2012 21:18 VBoxGuestAdditions_4.2.6.iso
+Directory /
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 .
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 ..
+      11 drwx------ 10017      0     16384 21-Mar-2013 09:33 lost+found
+      12 -rw------- 10017  10018 2245046272 25-Mar-2013 16:33 tredius.vdi
+X 917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 .VirtualBox
+  917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 vb
+
+
+dir_partition inode=2
+   P MS Data               1012881408 1033852927   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 .
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 ..
+      11 drwx------     0      0      4096 29-Dec-2012 22:50 lost+found
+X 483329 drwxr-x---  1000    100         0 25-Nov-2012 01:30 scrape
+X 622593 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bc
+X 425985 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hsperfdata_susy
+X 557057 drwx------  1000    100         0 25-Nov-2012 01:30 icedteaplugin-susy
+X 237569 drwx------  1000    100         0 25-Nov-2012 01:30 tmux-1000
+X 434177 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bin
+X 253953 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Jr2tj0
+X  65537 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .X11-unix
+X 147457 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .ICE-unix
+X 409601 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .XIM-unix
+X 589825 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .font-unix
+X 335873 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .Test-unix
+X 311297 drwxr-x---     0      0         0 25-Nov-2012 01:30 yaourt-tmp-root
+X 262145 drwxr-x--- 10007    100         0 25-Nov-2012 01:30 hsperfdata_robj
+X  32769 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wf13K1
+X 475137 drwx------  1000    100         0 18-Dec-2012 11:16 .esd-1000
+X     11 drwx------     0      0      4096 29-Dec-2012 22:50 .X0-lock
+X 163841 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Nxf1A9
+X 630785 drwx------  1000    100         0 25-Nov-2012 01:30 pulse-uLANL9oDkHjr
+X 540673 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-tuejS5
+X 491521 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-vUvyK5
+X 606209 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-LORdVI
+X 278529 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-fx1ZV3
+X 212993 drwxr-x---  1000    100         0 25-Nov-2012 01:30 a
+X 417793 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.xxODmZ
+X 172033 drwxr-x---  1000    100         0 25-Nov-2012 01:30 cc
+X     23 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitignore
+X  98305 drwxr-x---  1000    100         0 25-Nov-2012 01:30 yaourt-tmp-susy
+X 450561 drwx------     0      0         0 24-Nov-2012 23:52 vloceGX
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 vteF9LAOW
+X 524289 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-9Qu0lK
+X 614401 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wolGGk
+X 188417 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-ldGYoE
+X 114689 drwx------  1000    100         0 25-Nov-2012 01:30 CRX_75DAF8CB7768
+X 360449 drwxr-x---  1000    100         0 25-Nov-2012 01:30 dd
+X     12 -rw-------  1000    100       128 24-Nov-2012 23:51 docpad.js
+X 393217 drwxr-x---  1000    100         0 25-Nov-2012 01:30 ee
+X     31 -rw-r-----  1000    100         0 24-Nov-2012 23:51 templates.js
+X 507905 drwxr-x---  1000    100         0 25-Nov-2012 01:30 k
+X     34 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitattributes
+X     35 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .jshintrc
+X     36 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .editorconfig
+X 245761 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-jNTNnV
+X 573441 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-KZoGDHtn16aK
+X 319489 drwxr-x---  1000    100         0 25-Nov-2012 01:30 zz
+X 458753 drwx------  1000    100         0 18-Dec-2012 11:16 .vbox-susy-ipc
+X 106497 drwxr-x---  1000    100         0 25-Nov-2012 01:30 jade
+X 548865 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp
+X 155649 drwxr-x---  1000    100         0 25-Nov-2012 01:30 n
+X     13 -rw-------  1000    100      2069 24-Nov-2012 23:52 BE5HTQuE.zip.part
+X 647169 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp-1
+X  16385 drwxr-x---  1000    100         0 25-Nov-2012 01:30 fc
+X 122881 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hh
+X 196609 drwxr-x---  1000    100         0 25-Nov-2012 01:30 uu
+X 442369 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.IOjtvS
+X     16 -rw-------  1000    100         0 24-Nov-2012 23:51 HTML5Video.org - HTML5 Video Library & Web Video Developer Community.html
+X     24 -rw-r-----  1000    100         0 24-Nov-2012 23:51 app.js
+X     25 -rw-r-----  1000    100         0 24-Nov-2012 23:51 server.js
+X     26 -rw-r-----  1000    100         0 24-Nov-2012 23:51 orbs.js
+X 565249 drwxr-x---  1000    100         0 25-Nov-2012 01:30 gg
+X     46 -rw-------  1000    100         0 24-Nov-2012 23:51 YhxdOJ0I.part
+X 598017 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-BYmhQD
+X 499713 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-CNe0QK
+X 131073 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-TZBfpM
+X 139265 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-kUVrxQ
+X 270337 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-1AzStUFuwp4G
+X 516097 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.8bALng
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 glM8ZzFu
+X     61 -rw-------  1000    100         0 24-Nov-2012 19:30 ccqPR4Uk.s
+
+
+dir_partition inode=2
+   P MS Data               1033852928 1243568127  209715200 [sb-userdata]
+     EXT4 Large file Sparse superblock Recover, 107 GB / 100 GiB
+Directory /
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 .
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 ..
+ 6029313 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 sorted
+ 5243000 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 a
+ 6029314 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 b
+ 5898241 drwx------  1000    100      4096 16-Feb-2013 05:51 .Trash-10009
+ 5243001 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 c
+ 6029315 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 d
+X4984068 -rw-r--r--  1000    100 789884928 14-Mar-2013 08:43 ubuntu-12.10-desktop-i386.iso
+X4984056 -rw-r--r--  1000    100  50047458 10-Mar-2013 22:57 lucene-4.1.0.tgz
+X4984064 -rw-r--r--  1000    100  50740224 15-Mar-2013 16:28 lucene-4.2.0.tgz
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virtimgs
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virimages
+
+
+dir_partition inode=2
+   P MS Data                981424128 1012881407   31457280
+     EXT4 Large file Sparse superblock, 16 GB / 15 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 ..
+  790690 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  655427 drwxr-xr-x     0      0      4096 20-Feb-2012 05:05 diet
+  788168 drwxr-xr-x     0      0      4096 30-Oct-2012 12:51 cuda
+  787261 drwxr-xr-x     0      0      4096 24-Oct-2012 19:43 dropbox
+  787362 drwxr-xr-x     0      0      4096  1-Nov-2012 04:02 graphite
+  787106 drwxr-xr-x     0      0      4096 14-Oct-2012 10:47 samsung
+  790641 drwxr-xr-x     0      0      4096 16-Apr-2012 17:02 qtemu
+  786434 drwxr-xr-x     0      0      4096 23-Dec-2012 00:17 sabnzbd
+  529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 titanium
+  790691 drwxr-xr-x     0      0      4096 22-Oct-2012 22:18 sphinx4
+  131073 drwxr-xr-x     0      0      4096 25-Nov-2012 04:47 cloud9
+  262145 drwxr-xr-x  1000    100      4096  4-Nov-2012 13:46 radrails
+  655361 drwxr-x---  1000      0      4096 27-Nov-2012 09:22 ace
+  655669 drwxr-xr-x     0      0      4096 17-Nov-2012 02:46 rapidminer
+  655387 drwxr-xr-x     0      0      4096 28-Nov-2012 03:33 sublime-text
+  267992 drwxr-xr-x     0      0      4096 24-Jan-2012 14:04 maven
+  393365 drwxr-xr-x     0      0      4096 26-Dec-2012 21:39 chromium-browser
+X 657495 -rw-r-----  1000    100    223389 27-Nov-2012 09:21 dev
+  657998 drwxr-sr-x    33     33      4096  5-Nov-2012 17:50 doc
+  395383 drwxr-x---     0      0      4096  1-Dec-2012 16:48 nodebak
+  524289 drwxr-x---  1000    100      4096 19-Dec-2012 15:34 linguistics
+  396331 drwxr-xr-x     0      0      4096 21-Dec-2012 22:54 Adobe
+  268037 drwxr-xr-x     0      0      4096 26-Dec-2012 21:37 google
+  396707 drwxr-xr-x     0      0      4096 24-Dec-2012 18:55 metasploit
+  268128 drwx------  1000    100      4096 19-Dec-2012 07:03 iagalah
+X 395942 -rw-r--r--     0      0       371 27-Nov-2012 19:46 test
+X   4821 lrwxrwxrwx  1000     33         9 11-Nov-2012 11:16 tredius
+X 528856 drwxr-x---  1000    100      4096 19-Dec-2012 13:55 SenchaSDKTools-2.0.0-beta3
+X 529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 Titanium_Studio
+
+
+dir_partition inode=2
+   P MS Data                981424128 1012881407   31457280
+     EXT4 Large file Sparse superblock, 16 GB / 15 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 20:40 ..
+  790690 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  655427 drwxr-xr-x     0      0      4096 20-Feb-2012 05:05 diet
+  788168 drwxr-xr-x     0      0      4096 30-Oct-2012 12:51 cuda
+  787261 drwxr-xr-x     0      0      4096 24-Oct-2012 19:43 dropbox
+  787362 drwxr-xr-x     0      0      4096  1-Nov-2012 04:02 graphite
+  787106 drwxr-xr-x     0      0      4096 14-Oct-2012 10:47 samsung
+  790641 drwxr-xr-x     0      0      4096 16-Apr-2012 17:02 qtemu
+  786434 drwxr-xr-x     0      0      4096 23-Dec-2012 00:17 sabnzbd
+  529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 titanium
+  790691 drwxr-xr-x     0      0      4096 22-Oct-2012 22:18 sphinx4
+  131073 drwxr-xr-x     0      0      4096 25-Nov-2012 04:47 cloud9
+  262145 drwxr-xr-x  1000    100      4096  4-Nov-2012 13:46 radrails
+  655361 drwxr-x---  1000      0      4096 27-Nov-2012 09:22 ace
+  655669 drwxr-xr-x     0      0      4096 17-Nov-2012 02:46 rapidminer
+  655387 drwxr-xr-x     0      0      4096 28-Nov-2012 03:33 sublime-text
+  267992 drwxr-xr-x     0      0      4096 24-Jan-2012 14:04 maven
+  393365 drwxr-xr-x     0      0      4096 26-Dec-2012 21:39 chromium-browser
+X 657495 -rw-r-----  1000    100    223389 27-Nov-2012 09:21 dev
+  657998 drwxr-sr-x    33     33      4096  5-Nov-2012 17:50 doc
+  395383 drwxr-x---     0      0      4096  1-Dec-2012 16:48 nodebak
+  524289 drwxr-x---  1000    100      4096 19-Dec-2012 15:34 linguistics
+  396331 drwxr-xr-x     0      0      4096 21-Dec-2012 22:54 Adobe
+  268037 drwxr-xr-x     0      0      4096 26-Dec-2012 21:37 google
+  396707 drwxr-xr-x     0      0      4096 24-Dec-2012 18:55 metasploit
+  268128 drwx------  1000    100      4096 19-Dec-2012 07:03 iagalah
+X 395942 -rw-r--r--     0      0       371 27-Nov-2012 19:46 test
+X   4821 lrwxrwxrwx  1000     33         9 11-Nov-2012 11:16 tredius
+X 528856 drwxr-x---  1000    100      4096 19-Dec-2012 13:55 SenchaSDKTools-2.0.0-beta3
+X 529061 drwxr-xr-x     0      0      4096 31-Aug-2012 01:25 Titanium_Studio
+
+
+dir_partition inode=2
+   P MS Data                939481088  981424127   41943040
+     EXT4 Large file Sparse superblock, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 .
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 ..
+      11 drwx------     0      0     16384  2-Nov-2012 12:40 lost+found
+  799791 drwxr-xr-x     0      0      4096 29-Dec-2012 02:41 man
+  924531 drwxr-xr-x     0      0    126976 29-Dec-2012 02:57 bin
+  298688 drwxr-xr-x     0      0     69632 29-Dec-2012 02:51 include
+  930438 drwxr-xr-x     0      0    167936 29-Dec-2012 02:51 lib
+  921272 drwxr-xr-x 10009  10008      4096 19-Dec-2012 11:29 local
+  185099 drwxr-xr-x     0      0     12288 29-Dec-2012 02:57 sbin
+  927771 drwxr-xr-x     0      0     12288 29-Dec-2012 02:51 share
+  524290 drwxr-xr-x     0      0      4096 23-Dec-2012 08:48 src
+  185084 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 x86_64-unknown-linux-gnu
+  794822 drwxr-xr-x     0      0     32768 29-Dec-2012 02:51 lib32
+  396789 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 i486-mingw32
+
+dir_partition inode=921272
+   P MS Data                939481088  981424127   41943040
+     EXT4 Large file Sparse superblock, 21 GB / 20 GiB
+Directory /local
+  921272 drwxr-xr-x 10009  10008      4096 19-Dec-2012 11:29 .
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 ..
+  950311 drwxr-xr-x 10009  10008      4096  4-Dec-2012 02:02 etc
+  921274 drwxr-xr-x 10009  10008      4096  9-Oct-2012 13:24 man
+  921276 drwxr-xr-x 10009  10008      4096 29-Dec-2012 00:35 bin
+  950323 drwxr-xr-x 10009  10008      4096  4-Dec-2012 02:02 games
+  950324 drwxr-xr-x 10009  10008      4096  4-Dec-2012 02:02 sbin
+  921281 drwxr-xr-x 10009  10008      4096  8-Dec-2012 21:00 share
+  921288 drwxr-xr-x 10009  10008      4096 29-Nov-2012 20:09 lib
+  950325 drwxr-xr-x 10009  10008      4096  4-Dec-2012 02:02 src
+  950310 drwxr-x--- 10009  10008      4096  8-Dec-2012 01:28 heroku
+  924507 drwxr-xr-x 10009  10008      4096 29-Nov-2012 20:09 include
+ 1069113 drwxr-xr-x 10009  10008      4096  4-Nov-Error: Couldn't find stat data of directory /../.
+2012 14:46 gae
+  937911 drwxr-x--- 10009  10008      4096 19-Dec-2012 11:29 apache
+Directory /
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 .
+       2 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 ..
+      11 drwx------     0      0     16384  2-Nov-2012 12:40 lost+found
+  799791 drwxr-xr-x     0      0      4096 29-Dec-2012 02:41 man
+  924531 drwxr-xr-x     0      0    126976 29-Dec-2012 02:57 bin
+  298688 drwxr-xr-x     0      0     69632 29-Dec-2012 02:51 include
+  930438 drwxr-xr-x     0      0    167936 29-Dec-2012 02:51 lib
+  921272 drwxr-xr-x 10009  10008      4096 19-Dec-2012 11:29 local
+  185099 drwxr-xr-x     0      0     12288 29-Dec-2012 02:57 sbin
+  927771 drwxr-xr-x     0      0     12288 29-Dec-2012 02:51 share
+  524290 drwxr-xr-x     0      0      4096 23-Dec-2012 08:48 src
+  185084 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 x86_64-unknown-linux-gnu
+  794822 drwxr-xr-x     0      0     32768 29-Dec-2012 02:51 lib32
+  396789 drwxr-xr-x     0      0      4096  9-Dec-2012 13:17 i486-mingw32
+
+
+dir_partition inode=2
+   P MS Data                897538048  939481087   41943040
+     ReiserFS 3.6 with standard journal, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0       512 29-Dec-2012 20:16 .
+       5 drwxr-xr-x     0      0       120 29-Dec-2012 02:50 db
+    7412 drwxr-xr-x     0      0       104 29-Dec-2012 20:16 yp
+      10 drwxr-xr-x     0      0       200 17-Nov-2012 06:11 abs
+   16448 drwxr-xr-x     0      0      1216 30-Dec-2012 09:40 lib
+    4495 drwxr-xr-x     0      0      1880 30-Dec-2012 13:51 log
+    2855 drwxr-xr-x     0      0        48  4-Dec-2012 02:02 opt
+    3967 lrwxrwxrwx     0      0         6  4-Dec-2012 02:02 run
+    4582 drwxrwxrwt     0      0       728 30-Dec-2012 13:48 tmp
+    3966 lrwxrwxrwx     0      0        10  4-Dec-2012 02:02 mail
+    3968 lrwxrwxrwx     0      0        11  4-Dec-2012 02:02 lock
+   16445 drwxr-xr-x     0      0       336 18-Dec-2012 11:36 cache
+   16406 drwxr-xr-x     0      0        48  3-Oct-2012 22:32 empty
+    3965 drwxrwxr-x     0     50        48  4-Dec-2012 02:02 games
+    2854 drwxr-xr-x     0      0        48  4-Dec-2012 02:02 local
+   16409 drwxr-xr-x     0      0       144 29-Dec-2012 20:20 spool
+   16433 drwxr-xr-x     0      0        48 21-Oct-2012 15:58 backup
+       3 drwx------     0      0        48  2-Nov-2012 13:06 .reiserfs_priv
+   16434 drwxrwxr-x    30     30       192 25-Oct-2012 12:29 nagios
+   16442 drwx------     0      0        80 14-Oct-2012 11:04 net-snmp
+
+
+dir_partition inode=2
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+  393561 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  262145 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 var
+  393505 drwxr-xr-x     0      0      4096 29-Dec-2012 02:51 bin
+  397328 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 boot
+  400065 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 dev
+  438714 drwxr-xr-x     0      0     12288 29-Dec-2012 09:38 etc
+  397329 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 home
+X     11 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib64
+  131502 drwxr-xr-x     0      0      4096 18-Dec-2012 13:21 mnt
+   16387 drwxr-xr-x     0      0      4096 26-Dec-2012 16:56 media
+  438707 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 opt
+  397327 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 proc
+  393727 drwxr-x---     0      0      4096 29-Dec-2012 12:59 root
+  438706 drwxr-xr-x     0      0      4096  2-Nov-2012 14:18 run
+  393562 drwxr-xr-x     0      0      4096 29-Dec-2012 02:50 sbin
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 srv
+  393218 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 sys
+  393221 drwxrwxrwt     0      0     12288 29-Dec-2012 09:38 tmp
+   73730 drwxr-xr-x     0      0      4096  2-Nov-2012 13:13 usr
+X 131501 drwxr-x---     0      0         0 29-Dec-2012 13:01 jail
+  393219 drwxr-xr-x     0      0      4096 21-Oct-2012 07:39 .config
+  438710 drwxr-xr-x     0      0      4096 22-Oct-2012 09:28 .kde4
+X  16386 -rw-r--r--  1000    100         0 24-Dec-2012 02:45 mount
+  263262 drwxr-xr-x     0      0      4096 13-Nov-2012 15:45 tmpfs
+X 263263 drwxrwxr-x 10009  10008         0 29-Dec-2012 13:01 data
+X  15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead.new
+   15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 .ismount-test-file
+
+dir_partition inode=263263
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /data
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+  393561 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  262145 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 var
+  393505 drwxr-xr-x     0      0      4096 29-Dec-2012 02:51 bin
+  397328 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 boot
+  400065 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 dev
+  438714 drwxr-xr-x     0      0     12288 29-Dec-2012 09:38 etc
+  397329 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 home
+X     11 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib64
+  131502 drwxr-xr-x     0      0      4096 18-Dec-2012 13:21 mnt
+   16387 drwxr-xr-x     0      0      4096 26-Dec-2012 16:56 media
+  438707 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 opt
+  397327 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 proc
+  393727 drwxr-x---     0      0      4096 29-Dec-2012 12:59 root
+  438706 drwxr-xr-x     0      0      4096  2-Nov-2012 14:18 run
+  393562 drwxr-xr-x     0      0      4096 29-Dec-2012 02:50 sbin
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 srv
+  393218 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 sys
+  393221 drwxrwxrwt     0      0     12288 29-Dec-2012 09:38 tmp
+   73730 drwxr-xr-x     0      0      4096  2-Nov-2012 13:13 usr
+X 131501 drwxr-x---     0      0         0 29-Dec-2012 13:01 jail
+  393219 drwxr-xr-x     0      0      4096 21-Oct-2012 07:39 .config
+  438710 drwxr-xr-x     0      0      4096 22-Oct-2012 09:28 .kde4
+X  16386 -rw-r--r--  1000    100         0 24-Dec-2012 02:45 mount
+  263262 drwxr-xr-x     0      0      4096 13-Nov-2012 15:45 tmpfs
+X 263263 drwxrwxr-x 10009  10008         0 29-Dec-2012 13:01 data
+X  15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead.new
+   15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 .ismount-test-file
+
+dir_partition inode=397330
+   P MS Data                876566528  897538047   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /srv
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+X 397331 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 jail
+X 397332 drwxrwsr-x    33     33         0 29-Dec-2012 13:16 http
+X 400061 drwxr-xr-x     0      0         0 29-Dec-2012 13:16 nt
+X 174055 drwxr-x---  1234  10005         0 29-Dec-2012 13:16 build
+X 403721 dr-xr-xr-x     0     11         0 29-Dec-2012 13:16 ftp
+X 400063 -rw-r--r--     0      0       103 22-Nov-2012 15:20 ftp
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 .
+       2 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 ..
+  393561 drwx------     0      0      4096  6-Oct-2012 18:54 lost+found
+  262145 drwxr-xr-x     0      0      4096 29-Dec-2012 13:05 var
+  393505 drwxr-xr-x     0      0      4096 29-Dec-2012 02:51 bin
+  397328 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 boot
+  400065 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 dev
+  438714 drwxr-xr-x     0      0     12288 29-Dec-2012 09:38 etc
+  397329 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 home
+X     11 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 lib64
+  131502 drwxr-xr-x     0      0      4096 18-Dec-2012 13:21 mnt
+   16387 drwxr-xr-x     0      0      4096 26-Dec-2012 16:56 media
+  438707 drwxr-xr-x     0      0      4096  6-Oct-2012 18:57 opt
+  397327 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 proc
+  393727 drwxr-x---     0      0      4096 29-Dec-2012 12:59 root
+  438706 drwxr-xr-x     0      0      4096  2-Nov-2012 14:18 run
+  393562 drwxr-xr-x     0      0      4096 29-Dec-2012 02:50 sbin
+  397330 drwxr-xr-x  1234  10005      4096 29-Dec-2012 13:16 srv
+  393218 drwxr-xr-x     0      0      4096  6-Oct-2012 18:59 sys
+  393221 drwxrwxrwt     0      0     12288 29-Dec-2012 09:38 tmp
+   73730 drwxr-xr-x     0      0      4096  2-Nov-2012 13:13 usr
+X 131501 drwxr-x---     0      0         0 29-Dec-2012 13:01 jail
+  393219 drwxr-xr-x     0      0      4096 21-Oct-2012 07:39 .config
+  438710 drwxr-xr-x     0      0      4096 22-Oct-2012 09:28 .kde4
+X  16386 -rw-r--r--  1000    100         0 24-Dec-2012 02:45 mount
+  263262 drwxr-xr-x     0      0      4096 13-Nov-2012 15:45 tmpfs
+X 263263 drwxrwxr-x 10009  10008         0 29-Dec-2012 13:01 data
+X  15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead.new
+   15916 -rw-r--r--     0      0      7486 29-Dec-2012 10:23 .readahead
+X  15917 lrwxrwxrwx     0      0         7 26-Dec-2012 11:23 .ismount-test-file
+
+
+dir_partition inode=2
+   P MS Data               1353238528 1953523711  600285184
+     EXT4 Large file Sparse superblock, 307 GB / 286 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 .
+       2 drwxr-xr-x     0      0      4096 10-Aug-2012 07:50 ..
+      11 drwx------     0      0     16384 10-Aug-2012 07:50 lost+found
+
+
+dir_partition inode=2
+   P MS Data               1243568128 1348425727  104857600
+     EXT4 Large file Sparse superblock, 53 GB / 50 GiB
+Directory /
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 .
+       2 drwxr-xr-x 10017      0      4096 24-Mar-2013 19:43 ..
+      11 drwx------ 10017      0     16384 21-Mar-2013 09:33 lost+found
+      12 -rw------- 10017  10018 2245046272 25-Mar-2013 16:33 tredius.vdi
+X 917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 .VirtualBox
+  917505 drwx------ 10017    100      4096 15-Mar-2013 00:54 vb
+
+
+dir_partition inode=2
+   P MS Data               1033852928 1243568127  209715200 [sb-userdata]
+     EXT4 Large file Sparse superblock Recover, 107 GB / 100 GiB
+Directory /
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 .
+       2 drwxr-xr-x  1000     10      4096 26-Mar-2013 11:26 ..
+ 6029313 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 sorted
+ 5243000 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 a
+ 6029314 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 b
+ 5898241 drwx------  1000    100      4096 16-Feb-2013 05:51 .Trash-10009
+ 5243001 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 c
+ 6029315 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:26 d
+X4984068 -rw-r--r--  1000    100 789884928 14-Mar-2013 08:43 ubuntu-12.10-desktop-i386.iso
+X4984056 -rw-r--r--  1000    100  50047458 10-Mar-2013 22:57 lucene-4.1.0.tgz
+X4984064 -rw-r--r--  1000    100  50740224 15-Mar-2013 16:28 lucene-4.2.0.tgz
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virtimgs
+X5242999 drwxr-xr-x  1000   1000      4096 26-Mar-2013 11:24 virimages
+
+
+dir_partition inode=2
+   P MS Data               1012881408 1033852927   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 .
+       2 drwxrwxrwt     0      0      4096 18-Dec-2012 11:16 ..
+      11 drwx------     0      0      4096 29-Dec-2012 22:50 lost+found
+X 483329 drwxr-x---  1000    100         0 25-Nov-2012 01:30 scrape
+X 622593 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bc
+X 425985 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hsperfdata_susy
+X 557057 drwx------  1000    100         0 25-Nov-2012 01:30 icedteaplugin-susy
+X 237569 drwx------  1000    100         0 25-Nov-2012 01:30 tmux-1000
+X 434177 drwxr-x---  1000    100         0 25-Nov-2012 01:30 bin
+X 253953 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Jr2tj0
+X  65537 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .X11-unix
+X 147457 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .ICE-unix
+X 409601 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .XIM-unix
+X 589825 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .font-unix
+X 335873 drwxrwxrwt     0      0         0 18-Dec-2012 11:16 .Test-unix
+X 311297 drwxr-x---     0      0         0 25-Nov-2012 01:30 yaourt-tmp-root
+X 262145 drwxr-x--- 10007    100         0 25-Nov-2012 01:30 hsperfdata_robj
+X  32769 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wf13K1
+X 475137 drwx------  1000    100         0 18-Dec-2012 11:16 .esd-1000
+X     11 drwx------     0      0      4096 29-Dec-2012 22:50 .X0-lock
+X 163841 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-Nxf1A9
+X 630785 drwx------  1000    100         0 25-Nov-2012 01:30 pulse-uLANL9oDkHjr
+X 540673 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-tuejS5
+X 491521 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-vUvyK5
+X 606209 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-LORdVI
+X 278529 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-fx1ZV3
+X 212993 drwxr-x---  1000    100         0 25-Nov-2012 01:30 a
+X 417793 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.xxODmZ
+X 172033 drwxr-x---  1000    100         0 25-Nov-2012 01:30 cc
+X     23 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitignore
+X  98305 drwxr-x---  1000    100         0 25-Nov-2012 01:30 yaourt-tmp-susy
+X 450561 drwx------     0      0         0 24-Nov-2012 23:52 vloceGX
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 vteF9LAOW
+X 524289 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-9Qu0lK
+X 614401 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-wolGGk
+X 188417 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-ldGYoE
+X 114689 drwx------  1000    100         0 25-Nov-2012 01:30 CRX_75DAF8CB7768
+X 360449 drwxr-x---  1000    100         0 25-Nov-2012 01:30 dd
+X     12 -rw-------  1000    100       128 24-Nov-2012 23:51 docpad.js
+X 393217 drwxr-x---  1000    100         0 25-Nov-2012 01:30 ee
+X     31 -rw-r-----  1000    100         0 24-Nov-2012 23:51 templates.js
+X 507905 drwxr-x---  1000    100         0 25-Nov-2012 01:30 k
+X     34 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .gitattributes
+X     35 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .jshintrc
+X     36 -rw-r-----  1000    100         0 18-Dec-2012 11:16 .editorconfig
+X 245761 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-jNTNnV
+X 573441 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-KZoGDHtn16aK
+X 319489 drwxr-x---  1000    100         0 25-Nov-2012 01:30 zz
+X 458753 drwx------  1000    100         0 18-Dec-2012 11:16 .vbox-susy-ipc
+X 106497 drwxr-x---  1000    100         0 25-Nov-2012 01:30 jade
+X 548865 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp
+X 155649 drwxr-x---  1000    100         0 25-Nov-2012 01:30 n
+X     13 -rw-------  1000    100      2069 24-Nov-2012 23:52 BE5HTQuE.zip.part
+X 647169 drwx------  1000    100         0 25-Nov-2012 01:30 plugtmp-1
+X  16385 drwxr-x---  1000    100         0 25-Nov-2012 01:30 fc
+X 122881 drwxr-x---  1000    100         0 25-Nov-2012 01:30 hh
+X 196609 drwxr-x---  1000    100         0 25-Nov-2012 01:30 uu
+X 442369 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.IOjtvS
+X     16 -rw-------  1000    100         0 24-Nov-2012 23:51 HTML5Video.org - HTML5 Video Library & Web Video Developer Community.html
+X     24 -rw-r-----  1000    100         0 24-Nov-2012 23:51 app.js
+X     25 -rw-r-----  1000    100         0 24-Nov-2012 23:51 server.js
+X     26 -rw-r-----  1000    100         0 24-Nov-2012 23:51 orbs.js
+X 565249 drwxr-x---  1000    100         0 25-Nov-2012 01:30 gg
+X     46 -rw-------  1000    100         0 24-Nov-2012 23:51 YhxdOJ0I.part
+X 598017 drwxrwxrwt     0      0         0 25-Nov-2012 01:30 systemd-private-BYmhQD
+X 499713 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-CNe0QK
+X 131073 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-TZBfpM
+X 139265 drwx------  1000    100         0 25-Nov-2012 01:30 gpg-kUVrxQ
+X 270337 drwx------  1000    100         0 25-Nov-2012 01:30 ssh-1AzStUFuwp4G
+X 516097 drwx------  1000    100         0 18-Dec-2012 11:16 .org.chromium.Chromium.8bALng
+X     17 -rw-------  1000    100         0 24-Nov-2012 23:51 glM8ZzFu
+X     61 -rw-------  1000    100         0 24-Nov-2012 19:30 ccqPR4Uk.s
+
+
+dir_partition inode=2
+   P MS Data                     2048   20973567   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 03:39 .
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 03:39 ..
+  524289 drwxr-xr-x     0      0      4096 17-Mar-2013 20:59 google
+  393217 drwxr-xr-x     0      0      4096 17-Mar-2013 21:22 tor-browser-en
+  131073 drwxr-xr-x     0      0      4096 14-Mar-2013 15:05 sublime-text
+  524380 drwxr-xr-x   998    998      4096  3-Jan-2013 04:18 sabnzbd
+  131157 drwxr-xr-x 10009    100      4096  3-Jan-2013 20:45 ideaIU-11.1.5
+X 393512 -rw-r--r--     0      0       477 19-Mar-2013 19:32 iron
+  131139 drwxr-xr-x     0      0      4096  3-Jan-2013 14:37 iview
+  393983 drwxr-xr-x     0      0      4096 16-Mar-2013 02:02 eclipse
+  262230 drwxr-xr-x   663    663      4096  5-Mar-2013 01:33 orientdb
+  262231 drwxr-xr-x 10009      0      4096  5-Mar-2013 04:49 java6
+  525041 drwx------ 10009    100      4096 19-Jan-2013 12:20 drawflow
+  525053 drwxr-xr-x 10009    100      4096 20-Jan-2013 23:28 java-decompiler
+X 525081 drwxr-xr-x 10009    100         0 26-Mar-2013 03:39 wiki-on-a-stick
+  396043 drwxr-xr-x     0      0      4096 25-Feb-2013 11:25 maven
+X 132232 -rw-r--r--  1000   1000     27303 26-Mar-2013 04:32 LightTable
+  133016 drwxr-xr-x     0      0      4096 26-Mar-2013 03:39 clj
+X     66 drwxr-xr-x 10009      0      4096  8-Mar-2013 21:16 clojurescript
+    8193 drwxr-xr-x 10013  10011      4096  6-Feb-2013 13:55 riak
+  393986 drwxr-xr-x     0      0      4096  8-Oct-2012 00:11 qt
+X 133862 -rwxr-xr-x  1000   1000         0 26-Mar-2013 04:23 iron
+  526290 drwxr-xr-x  1000   1000      4096  7-Feb-2013 18:05 wakanda
+  132042 drwxr-xr-x 10009     10      4096 17-Feb-2013 19:02 seyren
+  132067 drwxr-xr-x 10009      0      4096 28-Feb-2013 14:37 composer
+  393219 drwxr-xr-x     0      0      4096 19-Mar-2013 19:32 pyload
+  266744 drwxr-xr-x 10009    100      4096  7-Feb-2013 04:48 hadoop-2.0.3-alpha
+  133018 drwxr-xr-x   661  10017      4096 13-Mar-2013 15:50 nexus
+  393941 drwxr-xr-x     0      0      4096 22-Mar-2013 07:31 jswat
+  395797 drwxrwxr-x     0      0      4096  7-Jan-2013 17:02 eagle
+X 396600 drwxr-xr-x     0      0         0 26-Mar-2013 03:39 webmin
+  132236 drwxr-xr-x     0      0      4096 24-Mar-2013 17:32 ob-openssh
+  132231 drwxr-xr-x  1000   1001      4096 26-Mar-2013 02:25 Sources
+
+
+dir_partition inode=2
+   P MS Data                 20973568   41945087   20971520
+     EXT4 Large file Sparse superblock Recover, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 11:40 .
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 11:40 ..
+      11 drwx------     0      0     16384 29-Dec-2012 13:15 lost+found
+X 131073 ?---------     0      0         0                   build
+X 393217 ?---------     0      0         0                   ftp
+X 524289 ?---------     0      0         0                   http
+X 262145 ?---------     0      0         0                   jail
+X 131074 ?---------     0      0         0                   nt
+X 262146 ?---------     0      0         0                   meteor
+X 393218 ?-Error: Couldn't find stat data of directory /../.
+--------     0      0         0                   tftp
+
+
+dir_partition inode=2
+   P MS Data                 41945088   83888127   41943040
+     ReiserFS 3.6 with standard journal, need recovery, 21 GB / 20 GiB
+Directory /
+       2 drwxr-xr-x     0      0       440 26-Mar-2013 05:04 .
+     189 drwxr-xr-x     0      0       120 26-Mar-2013 04:03 db
+    1694 drwxr-xr-x     0      0        96  7-Sep-2012 18:51 abs
+       7 drwxr-xr-x     0      0       792 26-Mar-2013 09:16 lib
+     177 drwxr-xr-x     0      0       552 26-Mar-2013 11:48 log
+     170 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 opt
+     179 lrwxrwxrwx     0      0         6 14-Mar-2013 20:20 run
+     175 drwxrwxrwt     0      0       968 26-Mar-2013 12:07 tmp
+     172 lrwxrwxrwx     0      0        10 14-Mar-2013 20:20 mail
+     173 lrwxrwxrwx     0      0        11 14-Mar-2013 20:20 lock
+    6404 drwxr-xr-x   998     99        80 26-Mar-2013 05:04 darkstat
+       4 drwxr-xr-x     0      0       200 26-Mar-2013 06:52 cache
+     174 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 empty
+     178 drwxrwxr-x     0     50        72 25-Mar-2013 19:36 games
+     171 drwxr-xr-x     0      0        48 14-Mar-2013 20:20 local
+     176 drwxr-xr-x     0      0       168 26-Mar-2013 06:52 spool
+       3 drwx------     0      0        48 30-Dec-2012 13:58 .reiserfs_priv
+
+
+dir_partition inode=2
+   P MS Data                 84094976  105066495   20971520
+     EXT2 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 ..
+      11 drwx------     0      0     16384  6-Oct-2012 18:29 lost+found
+
+
+dir_partition inode=2
+   P MS Data                105066496  126038015   20971520
+     EXT4 Large file Sparse superblock, 10 GB / 10 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 .
+       2 drwxr-xr-x     0      0      4096  6-Oct-2012 18:29 ..
+      11 drwx------     0      0     16384  6-Oct-2012 18:29 lost+found
+
+   P MS Data                712093694  785494013   73400320
+     EXT4 Large file Sparse superblock Backup superblock, 37 GB / 35 GiB
+Can't open filesystem. Filesystem seems damaged.
+
+interface_write()
+ 1 P MS Data                     2048   20973567   20971520
+ 2 P MS Data                 20973568   41945087   20971520
+ 3 P MS Data                 41945088   83888127   41943040
+ 4 P MS Data                 84094976  105066495   20971520
+ 5 P MS Data                105066496  126038015   20971520
+ 6 P MS Data                712093694  785494013   73400320
+ 7 P MS Data                785494016  806465535   20971520 [VolNtfs]
+ 8 P MS Data                806465536  827437055   20971520
+ 9 P MS Data                874469376  876566527    2097152
+10 P MS Data                876566528  897538047   20971520
+11 P MS Data                897538048  939481087   41943040
+12 P MS Data                939481088  981424127   41943040
+13 P MS Data                981424128 1012881407   31457280
+14 P MS Data               1012881408 1033852927   20971520
+15 P MS Data               1033852928 1243568127  209715200 [sb-userdata]
+16 P MS Data               1243568128 1348425727  104857600
+17 P MS Data               1353238528 1953523711  600285184
+simulate write!
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1953525167 (expected 1953525167)
+hdr_lba_start=34
+hdr_lba_end=1953525134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P Unknown                     2048   20973567   20971520 [optional_1]
+ 2 P Unknown                 20973568   41945087   20971520 [services_1]
+ 3 P Unknown                 41945088   83888127   41943040 [variable_data_1]
+ 4 P Unknown                 83888128  125831167   41943040 [repository_1]
+ 5 P Unknown                125831168  188745727   62914560 [company_data_1]
+ 6 P Linux Swap             188745728  209717247   20971520 [swap_1]
+ 7 P Unknown                209717248  230688767   20971520 [mongodb_1]
+ 8 P Unknown                230688768  335546367  104857600 [backups_small_1]
+13 P Unknown               1033852928 1243568127  209715200 [HOME]
+ 9 P Unknown               1243568128 1348425727  104857600 [virtualboxes_1]
+gpt_change_part_type
+Change partition type:
+ 2 P EFI System              20973568   41945087   20971520 [services_1]
+Change partition type:
+ 2 P ext4                    20973568   41945087   20971520 [services_1]
+gpt_change_part_type
+Change partition type:
+ 2 P EFI System              20973568   41945087   20971520 [services_1]
+Change partition type:
+ 2 P ext4                    20973568   41945087   20971520 [services_1]
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/80, s_mnt_count=1/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/80, s_mnt_count=64/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 2621440
+recover_EXT2: part_size 20971520
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+  MS Data                 20973568   41945087   20971520 [services_1]
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+
+dir_partition inode=2
+ 2 P EFI System              20973568   41945087   20971520 [services_1]
+Directory /
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 11:40 .
+       2 drwxr-xr-x     0      0      4096 26-Mar-2013 11:40 ..
+      11 drwx------     0      0     16384 29-Dec-2012 13:15 lost+found
+X 131073 ?---------     0      0         0                   build
+X 393217 ?---------     0      0         0                   ftp
+X 524289 ?---------     0      0         0                   http
+X 262145 ?---------     0      0         0                   jail
+X 131074 ?---------     0      0         0                   nt
+X 262146 ?---------     0      0         0                   meteor
+X 393218 ?---------     0      0         0                   tftp
+New options :
+ Dump : No
+ Cylinder boundary : Yes
+ Allow partial last cylinder : No
+ Expert mode : No
+
+TestDisk exited normally.

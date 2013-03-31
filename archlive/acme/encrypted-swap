@@ -1,0 +1,13 @@
+Every time cryptsetup recreates the encrypted swap partition at boot time it generates a new UUID for it! Doh!
+
+In /etc/crypttab, use /dev/disk/by-id instead of /dev/disk/by-UUID to refer to your swap partition. For example, your /etc/fstab entry for swap might be
+
+#<file system> <mount point> <type> <options> <dump> <pass>
+/dev/mapper/cswap none swap sw 0 0
+Then the correct corresponding entry in /etc/crypttab would be something like
+
+# <name> <device> <password> <options>
+cswap ata-SAMSUNG_SSD_830_Series_S0XYNEAC762041-part5 /dev/urandom swap,cipher=aes-cbc-essiv:sha256,size=256
+Notice that the device above is referred to by /dev/disk/by-id which you can find out for your drive by typing the following at the CLI:
+
+ls -lF /dev/disk/by-id

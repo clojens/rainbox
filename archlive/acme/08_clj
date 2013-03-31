@@ -1,0 +1,92 @@
+
+
+(use '(clojure string repl test))
+
+;(defn dice [] #{:d1 (+ (rand-int 6) 1) 
+;                :d2 (+ (rand-int 6) 1)})
+
+; define variable of two-dices
+;(def two-dices '(sort (+ (rand-int 6) 1) (+ (rand-int 6) 1)))
+
+(sort > (vals {:foo (+ (rand-int 6) 1)
+               :bar (+ (rand-int 6) 1)}))
+
+
+;(if (= (rand-int 2) 1) "Player")
+
+(println "Player %1")
+
+(sorted-map-by < (+ (rand-int 6) 1) "dice one" 
+                 (+ (rand-int 6) 1) "dice two")
+
+
+(defstruct goods :id :price)
+
+
+(def data (map #(struct goods %1 %2)
+           (shuffle (range 0 10)) (shuffle
+                       (into (range 100 500 100)
+                         (range 100 500 100)))))
+
+
+(clojure.pprint/pprint data)
+
+(println (repeatedly 5 (partial shuffle [1 2 3])))
+
+
+
+(defn roll [d1 d2]
+  (case [d1 d2]
+    ; The values equal extra rolls if thrown as below:
+    ; One and two is a TricTrac and worth most points/steps
+    ; Doubles come next where 1 and 1 or 6 and 6 are the same
+    ; total amount of steps but the sequence is turned around.
+    (()) "throw the dice"
+    ((1 2)) '(1 1 2 2 5 5 6 6) ; reroll if all are played
+    ((1 1)) '(1 1 6 6)         ; idem
+    ((2 2)) '(2 2 5 5)         ; ..
+    ((3 3)) '(3 3 4 4)         ; .
+    ((4 4)) '(4 4 3 3)
+    ((5 5)) '(5 5 2 2)
+    ((6 6)) '(6 6 1 1)
+    (+ d1 d2))) ;<= default
+    
+
+;(roll [x:d1 x:d2])
+
+
+
+;(defn roll [player]
+  
+;  "Two dices of 1-6 each, some have extra points the rest is from low to high,
+;  lowest number must be done first, more specifically, the pieces must be moved 
+;  x and then y postions towards the end-goal. Dices are thrown together in once."
+  
+;  (case (list 
+  ;       (+ (rand-int 6) 1) 
+;;      (+ (rand-int 6) 1))
+    
+  ;  (1 2) '(1 1 2 2 5 5 6 6)
+  ;  (1 1) '(1 1 6 6)
+  ;  (2 2) '(2 2 5 5)
+  ;  (3 3) '(3 3 4 4)
+  ;  (4 4) '(4 4 3 3)
+  ;  (5 5) '(5 5 2 2)
+    ;(6 6) '(6 6 1 1)
+    
+  ; now we have a list of two values between 1 and 6
+  ; (1 2) , or 2 1 for that matter as well as 1 1, 2 2, 3 3  ... 6 6 have special meaning
+  ; you get to do that amount of movements plus those on the other side, and a rethrow
+  
+  
+
+  ;split was imported with string library
+;(split "a,b,c" #",")
+
+;(defn reroll [] "a")
+;(let [myseq (list (+ (rand-int 6) 1) 
+;                  (+ (rand-int 6) 1)))])
+
+
+;(roll "p1")
+

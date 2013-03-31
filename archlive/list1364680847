@@ -1,0 +1,127 @@
+ 2877  yainsd pacman-color
+ 2938  yainsd seeker
+ 2995  yainsd aur/hardened-cc
+ 3026  yainsd aur/cdu
+ 3028  yainsd aura
+ 3034  yainsd aura
+ 3076  yainsd dfc
+ 3082  yainsd uniso
+ 3089  yainsd aur/splashy-theme-darch
+ 3091  yainsd aur/searchmonkey aur/rarcrack aur/pkgextract aur/pdfgrep aur/pdftk-bin aur/paktahn
+ 3092  yainsd aur/searchmonkey aur/rarcrack aur/pkgextract aur/pdfgrep aur/pdftk-bin aur/paktahn --needed
+ 3093  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman an-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman            baal@ares
+ 3094  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman an-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/google-hacks-gui aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant 
+ 3095  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/google-hacks-gui aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant 
+ 3096  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/google-hacks-gui aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant
+ 3097  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/google-hacks-gui aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant
+ 3103  yainsd aur/searchmonkey aur/rarcrack aur/pkgextract aur/pdfgrep aur/pdftk-bin aur/paktahn --needed
+ 3106  yainsd aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/google-hacks-gui aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant
+ 3108  yainsd aur/lib32-pangomm
+ 3109  yainsd --needed aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/fortune-mod-archlinux aur/archup aur/archey3 aur/archassistant
+ 3110  yainsd --needed aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom aur/jsmath-fonts aur/hwd aur/hnb aur/gtkpacman aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/fortune-mod-archlinux
+ 3111  yainsd --needed aur/pacman-notifier aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom
+ 3112  yainsd aur/zsh-syntax-highlighting
+ 3115  yainsd --needed aur/rpm2tgz aur/pacbuilder-svn aur/mendeleydesktop aur/linux_logo_archcustom
+ 3131  yainsd aur/chromium-pepper-flash-stable
+ 3132  yainsd aur/chromium-pepper-flash
+ 3133  yainsd pulseaudio-alsa
+ 3134  yainsd aur/aurlizer
+ 3149  yainsd google-chrome
+ 3156  yainsd aur/tiger skipfish
+ 3175  yainsd aur/dnetstats aur/netactview aur/qnetstatview
+ 3176  yainsd aur/dnetstats aur/netactview
+ 3225  yainsd aur/paperkey aur/yagtd aur/texstudio aur/scrub aur/python2-fabulous
+ 3246  yainsd aur/shutter
+ 3284  yainsd aur/jp2a
+ 3300  yainsd gnome-web-photo
+ 3342  yainsd aur/pkgextract
+ 3343  yainsd aur/dpkg aur/debootstrap aur/debianutils aur/deb2targz
+ 3344  yainsd community/checkinstall extra/strace 
+ 3384  yainsd extra/gnome-control-center
+ 3410  yainsd aur/google-chrome
+ 3414  yainsd aur/rpm-org
+ 3431  yainsd yum
+ 3510  yainsd aur/dmenu-xft
+ 3524  yainsd aur/oss-traycontrol aur/ossec-local aur/openmeetings aur/nc aur/mysql-workbench aur/libqxt aur/libdbusmenu-gtk2 aur/libdbusmenu aur/ipscan aur/bakefile aur/avbin aur/artha aur/angelscript extra/virtuoso extra/alsa-oss extra/aiksaurus 
+ 3526  yainsd aur/simon
+ 3529  yainsd aur/simon
+ 3531  yainsd htk
+ 3534  yainsd extra/pavucontrol
+ 3535  yainsd aur/pavumeter
+ 3542  yainsd extra/alsa-utils
+ 3548  yainsd community/autofs
+ 3550  yainsd aur/zenman
+ 3552  yainsd espeak
+ 3682  yainsd optipng
+ 3685  yainsd 
+ 3686  yainsd aur/wuala
+ 3749  yainsd aur/linux-pae
+ 3751  yainsd community/qgit community/giggle community/hub
+ 3752  yainsd community/sparkleshare
+ 3803  yainsd tuxmath
+ 3814  yainsd qpdf
+ 3815  yainsd qpdfview
+ 3883  yainsd maven2
+ 3885  yainsd maven
+ 3886  yainsd maven2
+ 3889  yainsd maven2
+ 3915  yainsd maven2
+ 3918  yainsd maven2
+ 4034  yainsd aur/sublime-text-dev
+ 4099  yainsd readahead-fedora
+ 4164  yainsd lein
+ 4166  yainsd lein
+ 4262  yainsd wn
+ 4263  yainsd wordnet
+ 4298  yainsd extra/xorg-xwininfo
+ 4300  yainsd log4j
+ 4326  yainsd extra/glsof lsof 
+ 4372  yainsd tomcat6
+ 4373  yainsd aur/alfresco-community-tomcat6
+ 4407  yainsd pulseaudio
+ 4445  yainsd aur/surfer-git
+ 4447  yainsd luakit
+ 4451  yainsd aur/razor-qt
+ 4454  yainsd --needed udisks upower-lightdm-greeter
+ 4455  yainsd --needed udisks upower lightdm-greeter
+ 4456  yainsd --needed udisks upower razor-lightdm-greeter
+ 4459  yainsd community/fwbuilder aur/arno-iptables-firewall aur/gufw 
+ 4461  yainsd aur/xscreensaver-arch-logo
+ 4463  yainsd qtconfig
+ 4465  yainsd skulpture
+ 4480  yainsd aur/kdeicons-nuvola kawoken-icon
+ 4481  yainsd aur/kdeicons-nuvola kawoken-icons
+ 4532  yainsd aur/cmake-usedoxygen extra/doxygen aur/doxygen2qthelp aur/eclox aur/doxymacs
+ 4534  yainsd aur/qutim-stable
+ 4549  yainsd aur/wavemon aur/vtun aur/voipmonitor aur/tcptrack aur/speedometer aur/netdiscover aur/systemd-network-units aur/ssidsniff aur/overlook-fing aur/packettracer aur/nwdiag aur/nettop 
+ 4551  yainsd aur/wavemon aur/vtun aur/voipmonitor aur/tcptrack aur/speedometer aur/netdiscover aur/systemd-network-units aur/ssidsniff aur/overlook-fing aur/packettracer aur/nwdiag aur/nettop 
+ 4552  yainsd aur/wavemon aur/vtun aur/voipmonitor aur/tcptrack aur/speedometer systemd-network-units aur/ssidsniff aur/overlook-fing aur/packettracer aur/nwdiag aur/nettop 
+ 4553  yainsd aur/wavemon aur/vtun aur/voipmonitor aur/tcptrack aur/speedometer systemd-network-units aur/ssidsniff aur/overlook-fing aur/packettracer aur/nwdiag aur/nettop --needed
+ 4555  yainsd nagios
+ 4560  yainsd aur/fsv
+ 4562  yainsd davtools
+ 4629  yainsd extra/libbluedevil bluedevil
+ 4632  yainsd aur/systemd-ui-git aur/autoswap aur/systemdx  aur/systemd-ckboot
+ 4633  yainsd lib32-libxft
+ 4634  yainsd libxft
+ 4636  yainsd aur/systemd-ui-git 
+ 4640  yainsd aur/systemd-arno-iptables-firewall
+ 4646  yainsd aur/compiz-check
+ 4655  yainsd aur/kgtk kdebase-kdialog
+ 4658  yainsd extra/poppler-data extra/poppler-glib community/zathura-pdf-poppler
+ 4663  yainsd aur/simple-ccsm
+ 4664  yainsd ccsm
+ 4665  yainsd aur/simple-ccsm
+ 4667  yainsd sexy-python
+ 4669  yainsd extra/libsexy
+ 4670  yainsd aur/python-sexy
+ 4674  yainsd community/fusion-icon
+ 4677  yainsd aur/qtcurve-qt4
+ 4679  yainsd aur/lib32-qtcurve-gtk2
+ 4681  yainsd extra/gconf-editor
+ 4684  yainsd aur/zurl aur/urxvtcd
+ 4685  yainsd mplayer --needed
+ 4693  yainsd aur/xbindkeys_config systemdx
+ 4694  yainsd aur/xbindkeys_config xfmpc
+ 4716  yainsd aur/anacron
+ 4755  yainsd aur/sonic-visualiser

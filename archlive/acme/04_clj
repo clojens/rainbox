@@ -1,0 +1,96 @@
+(ns com.solobit.clojure.practice.showcase
+  (:import java.lang.Math))
+ 
+; (:require '(clojure [repl :as repl]))
+
+(import java.util.Date)
+
+(def *now* (Date.))
+
+(str *now*)
+
+(require '(clojure [repl :as repl]))
+
+
+; We have a board game area, let it be a perfect square of 
+; four (4) equally sized blocks
+; where each block has
+;   six (6) slots (|)
+
+; ------ ------
+;
+; |||||| ||||||
+; 
+; |||||| |||||| 
+; (slots represented by | which are pidgeon holes)
+
+
+; since we have two players maximum and no two players may occupy a slot
+; a slot can be seen as a one-dimensional number line of positive and negative integers
+(list -5 -4 -3 -2 -1 0 1 2 3 4 5)
+
+; A single box, of six slots, can thus be seen as
+(list 0 0 0 0 0 0)
+
+; let player1, p1 be positive, neg AND have 15 pieces
+; let player2, p2 be negative, pos AND have 15 pieces
+
+; We would represent each of the four boxes when (partially filled)
+(defn box [] '(0 -1 -2 0 -3 -2))
+
+; But we know this isn't the whole picture
+
+(seq? box) ; !
+
+(box)
+; so
+(seq? (box))
+; then count works on a sequence
+(count (box))
+
+
+; because this is the maximum number of pieces allowed on 1 field
+; since no fields can be occupied by more then 1 player, we can
+; use negative real numbers, integers to represent pieces in a slot
+; and because the total players is always two, use addition and
+; subtraction to mutate the state of the board
+
+
+; define 2 variable pieces
+(def p1-pieces (repeatedly 15 #(atom nil)))
+(def p2-pieces (repeatedly 15 #(atom nil)))
+
+;(defn update-stack [new-amount] (reset! p1-pieces new-amount))
+
+(def board (atom '(0 0 0 0 0 0)))
+(println @board)
+
+;(repl/doc atom)
+
+
+(list 1 2 3)
+
+(list* 1 2 '(3 4 5)) ; last arg in list is sequence to append
+  
+  
+(defn roll [player dice] 
+  
+  "Roll n amount of dices each with 6 sides and equally numbered values on them.
+  The lowest value should always come out first."  
+  
+  (sort (repeatedly dice #(+ (rand-int 6) 1))))
+
+
+
+
+(repeatedly 15 #(seq nil))
+
+
+;(println (cons 1 2))
+
+;(repeatedly 5 (roll 2))
+(roll 1 2)
+
+
+
+;(repeat '(nil) 4)

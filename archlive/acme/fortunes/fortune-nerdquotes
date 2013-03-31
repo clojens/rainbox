@@ -1,0 +1,63 @@
+
+
+%
+
+Lisp is worth learning for the profound enlightenment experience you will have
+when you finally get it; that experience will make you a better programmer for
+the rest of your days, even if you never actually use Lisp itself a lot.
+-- Eric Raymond
+
+%
+
+Simplicity is the ultimate sophistication. -- Leonardo da Vinci
+(from Core Principles of the Arch Linux philosophy)
+
+%
+
+I believe that the time is ripe for significantly better documentation of
+programs, and that we can best achieve this by considering programs to be works
+of literature. Hence, my title: "Literate Programming." -- Donald Knuth
+
+%
+
+Let us change our traditional attitude to the construction of programs: Instead
+of imagining that our main task is to instruct a computer what to do, let us
+concentrate rather on explaining to human beings what we want a computer to do.
+-- Donald Knuth
+
+%
+
+The practitioner of literate programming can be regarded as an essayist, whose
+main concern is with exposition and excellence of style. Such an author, with
+thesaurus in hand, chooses the names of variables carefully and explains what
+each variable means.  -- Donald Knuth
+
+%
+
+The literate programmer strives for a program that is comprehensible because
+its concepts have been introduced in an order that is best for human
+understanding, using a mixture of formal and informal methods that reinforce
+each other. - Donald Knuth
+
+%
+
+A traditional computer program consists of a text file containing program code.
+Scattered in amongst the program code are comments which describe the various
+parts of the code. In literate programming the emphasis is reversed. Instead of
+writing code containing documentation, the literate programmer writes
+documentation containing code. -- Ross Williams
+
+%
+
+We were after the C++ programmers. We managed to drag a lot of them about
+halfway to Lisp. -- Guy Steele (co-author of the Java spec)
+
+%
+
+We should forget about small efficiencies, say about 97% of the time: premature
+optimization is the root of all evil. -- Donald Knuth
+http://en.wikipedia.org/wiki/Program_optimization
+
+%
+
+

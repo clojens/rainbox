@@ -1,0 +1,1 @@
+HOOKS="base udev autodetect block filesystems usr timestamp keyboard vboxhost nvidia fsck shutdown"

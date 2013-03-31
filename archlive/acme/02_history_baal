@@ -1,0 +1,71 @@
+    1  bash ~/build/omz/oh-my-zsh/tools/install.sh
+    2  id
+    3  sudo pacman -Qs unicode
+    4  emacs ~/.zshrc
+    5  zsh
+    6  la
+    7  cd
+    8  la
+    9  cd build
+   10  git clone https://github.com/overtone/overtone
+   11  git clone https://github.com/overtone/emacs-live
+   12  cd emacs-live
+   13  la
+   14  la installer
+   15  ./installer/install-emacs-live.sh
+   16  emacs ~/.emacs-live.el
+   17  pacman -Syu unicode
+   18  sudo pacman -Syu unicode
+   19  pacman -Sy terminfo
+   20  sudo pacman -Sy terminfo
+   21  sudo pacman -Qs terminfo
+   22  sudo pacman -Qs term
+   23  nano ~/.zshrc
+   24  ls ~/.oh-my-zsh/plugins/]
+   25  ls ~/.oh-my-zsh/plugins/
+   26  nano ~/.zshrc
+   27  ls ~/.oh-my-zsh/plugins/
+   28  nano ~/.zshrc
+   29  ls ~/.oh-my-zsh/plugins/
+   30  nano ~/.zshrc
+   31  pacman -Sy terminator
+   32  sudo pacman -Sy terminator
+   33  pacman -Qs console
+   34  pacman -Qs consoletools
+   35  pacman -Qs tools
+   36  pacman -Sy qt4 --needed
+   37  sudo pacman -Sy qt4 --needed
+   38  pacman -Qs extract
+   39  pacman -Qs
+   40  pacman -Qs|less
+   41  pacman -Q -h
+   42  pacman -Q
+   43  pacman -Q|less
+   44  pacman -Sy aalib
+   45  sudo pacman -Sy aalib
+   46  sudo pacman -Sy wordnet
+   47  sudo pacman -Sy wn
+   48  sudo pacman -Sy word
+   49  sudo pacman -Sy pulseaudio
+   50  sudo pacman -Sy aspell-nl
+   51  sudo pacman -Sy xmonad
+   52  sudo pacman -Sy xorg-xmessage
+   53  sudo pacman -Sy feh
+   54  sudo pacman -Sy htop
+   55  sudo pacman -Sy tree
+   56  sudo pacman -Sy iftop
+   57  sudo pacman -Sy cdf
+   58  sudo pacman -Sy dfc
+   59  sudo pacman -Sy cdu
+   60  sudo pacman -Sy pacman-color
+   61  sudo pacman -Sy g++ --needed
+   62  sudo pacman -Sy ghc-gpp --needed
+   63  sudo pacman -Sy gpp --needed
+   64  sudo pacman -Sy --needed autoconf
+   65  sudo pacman -Sy --needed automake
+   66  sudo pacman -Sy --needed cairo
+   67  sudo pacman -Sy --needed eclipse
+   68* pacman -Sy ssh-agent
+   69* sudo pacman -Sy ssh-agent
+   70  history
+   71  sudo su root

@@ -1,0 +1,10 @@
+cd /mnt
+mount /dev/sdb3 /mnt
+mount /dev/sdb2 /mnt/boot
+mount /dev/sdb4 /mnt/usr
+mount /dev/sdb5 /mnt/home
+mount /dev/sda1 /mnt/opt
+mount /dev/sda2 /mnt/srv
+mount /dev/sda3 /mnt/var
+
+

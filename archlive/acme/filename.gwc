@@ -1,0 +1,541 @@
+CRCVALUE=619981012;
+#<<Begin of Configuration File>>
+Version=1.1;
+Created Date=2013/3/26;
+Created Time=10:6:10;
+Model Number=EPC3925;
+Serial Number=242660359;
+User Name=Q6xPmj8hBKvAXBBAzJm7nNXqEOeAWBAuevlqwiLdtlJoE+n2+JL1csspvLMJuKWpgPT4BWxF05zNii2AjIZatYWJVC/m/jouA8fMnOhPUmJlawH9fHvnU/rdqswUQNWDdibrmIPMv6iDfSwJY6MA9SD58DlclwotLaa49YfPuYmgDv0hFrM1ZeR5dVTy6xGUAJEzu+rgq1w3wHiVKGaCmta4eWmaijd2/PUCfu/hge/8gh5C1jDTWDYi+LETgrAyJwyeOq4JiPmPOdIPggehUT/2E2Y1kbDyi2THaXwP492s/STsj8WXWGjrU/6ELQRWKM+lPs3TUwWMOWc9CEf9mA==;
+User Password=9vKB1YWsUrIxqHfY5byruIzedi/3bvMXt+o0IKwopWYvYV2aQnn5shZSxkLU1V+EYmuvnpyLi2s71NcsZZCJ4AOz4sM2Wup8lYr3/HaK1KhLujUrsWoKVmmSXOG28EVuIF3gmXBnYEhaK6UudgEWCRLCd40RXjjdGgpfaUvAoClPRK0c8Yb2i09KZ1qSjfr8C7wwXyBkS2aADvOLVDQN0g0xuhsX2FVBQ5ntTHZYSsDY4NH87LWeo4c3F6D8lx15Ntv6nNDDktuZuqq01+MrtGpnbsV0hp7NBxHs7W20uZLUn0V6adpoew3p2ZawQZf56fWBT3WhXc9mus2BOBACsQ==;
+User Change Flag=6291413;
+#
+#Network Configuration
+#
+LAN IP Address=192.168.178.1;
+LAN Network Number=192.168.178.0;
+LAN Subnet Mask=255.255.255.0;
+Host Name=;
+Domain Name=;
+Static IP Address=0.0.0.0;
+Static IP Mask=0.0.0.0;
+Default Gatway=0.0.0.0;
+Primary DNS=0.0.0.0;
+Secondary DNS=0.0.0.0;
+Tertiary DNS=0.0.0.0;
+#
+#DHCP Server
+#
+DHCP (Yes or No)=Yes;
+Starting Local Address=192.168.178.19;
+Number of CPEs (DHCP Pool Size)=12;
+DHCP Lease Time=7200;
+WINS Server(1)=0.0.0.0;
+WINS Server(2)=0.0.0.0;
+WINS Server(3)=0.0.0.0;
+#
+#Network Time Protocol
+#
+Network Time Protocol (Enable or Disable)=Enable;
+NTP Server(1)=pool.ntp.org;
+NTP Server(2)=nist.aol-ca.truetime.com;
+NTP Server(3)=nist1-ny.glassey.com;
+Time Zone Index=26;
+Time Zone Offset=3600;
+Daylight Saving Time (Enable or Disable)=Enable;
+Daylight Saving Time (Minutes)=60;
+#
+#Advance Setting
+#
+WAN Blocking (Yes or No)=Yes;
+IPSec Pass Through (Yes or No)=No;
+PPTP Pass Through (Yes or No)=No;
+Remote Configuration Management (Yes or No)=No;
+Remote Management Port=8080;
+IGMP Proxy (Yes or No)=Yes;
+MTU Size=0;
+Multicast Enable (Yes or No)=Yes;
+UPNP Enable (Yes or No)=No;
+#
+#DMZ
+#
+DMZ Host=0.0.0.0;
+#
+#RIP
+#
+RIP Support(On or Off)=Off;
+RIP Authentication (Enable or Disable)=Enable;
+RIP Reporting Interval=30;
+RIP Destination IP Address=0.0.0.0;
+#
+#Routed Subnet
+#
+Routed Subnet Support (On or Off)=Off;
+Dhcp Provisioned Routed Subnet (Enable or Disable)=Disable;
+Nat Routed Subnet (Enable or Disable)=Disable;
+Nat Routed Subnet Router=0.0.0.0;
+Nat Routed Subnet DNS(1)=0.0.0.0;
+Nat Routed Subnet DNS(2)=0.0.0.0;
+Nat Routed Subnet DNS(3)=0.0.0.0;
+Routed Subnet setting Profile=0;
+Routed Subnet Network IP[0]=0.0.0.0;
+Routed Subnet Network Mask[0]=255.255.255.0;
+Routed Subnet Network Gateway[0]=0.0.0.0;
+Routed Subnet Network IP[1]=0.0.0.0;
+Routed Subnet Network Mask[1]=255.255.255.0;
+Routed Subnet Network Gateway[1]=0.0.0.0;
+Routed Subnet Network IP[2]=0.0.0.0;
+Routed Subnet Network Mask[2]=255.255.255.0;
+Routed Subnet Network Gateway[2]=0.0.0.0;
+#
+#Web Feature
+#
+Filter Proxy (Enable or Disable)=Disable;
+Filter Cookies (Enable or Disable)=Disable;
+Filter Java Applets (Enable or Disable)=Disable;
+Filter ActiveX (Enable or Disable)=Disable;
+Filter Popup Windows (Enable or Disable)=Disable;
+Block Fragmented IP Packets (Enable or Disable)=Enable;
+Port Scan Detection (Enable or Disable)=Enable;
+IP Flood Detection (Enable or Disable)=Enable;
+Firewall Protection (Enable or Disable)=Enable;
+#
+#Firewall Event log
+#
+E-Mail Alert (Enable or Disable)=Enable;
+Contact Email Address=maildumpert@gmail.com;
+SMTP Server Name=smtp.gmail.com;
+SMTP Username=M6jBkgakCt+Gy8bnKuwvj7oYvU7pqJtGwgfeK973NoUZY8dRGToxmjF5bWpcfZbezjRRj36ZEvkcGxHYVzdG2N4FYc9zhBCvWd5g2AN2gtEgRM8AF7nvcfMmrt8go9/hvWZmHdueOli72UWFroLqIVkZ5kxF223ihmBg4+vlmjAS+xSd5oAn7vKtDackFSGLXoqkYx+9rQonC+ERK1DsDMcEyUONzX5kspE/hpEmymBzp2qD5yut0cEDbr15QO659psg8eXVpTaE0/ENvLqJZzucThm1BTMB456QJJh1mxz2syGx9CFSlDRs4r0EtnZLOcBf+waa6PsG+5FUsb7+XA==;
+SMTP Password=vkv6HNRWX90S3BIwoCeC8nC69UEyrh/3xWR47bBBtRjFj/OSkxFUl5hcBdafwq9rOSqJ5dudIl5WMi1TdZEgJNe7w42h+K5njrTTRj9MFQRcghCGY86mOVTHM9Lb5pinDw/bpvcdxFncELvWzdjM6/Tw6c1Qtrx64AGkEAN6Qcb33e13k/m2ifULpO1kkiTazjq5CRRlgP3TOmdXyU5Wl9d2jsW0GavdRtnhBTBtQb6wesJDVVASuVDepk4yD/kMe+gKDQJjWFXRfJjiqOBtmYJyV3qy2FjfFo1HKDKODits0aNp0CJUMVK4BZFhkoemy7X/PZZkZsGYJMCAAdz2Zg==;
+#
+#Fixed CPE IP
+#
+Fixed MAC Address[0]=08:ed:b9:f9:0b:6f;
+Fixed IP Address[0]=192.168.178.19;
+Status[0]=Active;
+Fixed MAC Address[4]=84:fc:fe:d8:bf:8e;
+Fixed IP Address[4]=192.168.178.20;
+Status[4]=Active;
+#
+#Pass Through
+#
+#
+#ToD Access Rule
+#
+#
+#Wireless Basic
+#
+Access Point (Enable or Disable)=Enable;
+Service Set Identifier (SSID)=alrdyg0ne;
+Country(WorldWide, Thailand, Israel, Jordan, China, Japan, USA, Europe, All channels)=Europe;
+Channel Width=20;
+Current Channel=0;
+#
+#Wireless Security
+#
+Network Authentication(Disable, WEP, WPA, WPA-PSK, WPA2, WPA2-PSK, Radius-WEP)=WPA2-PSK;
+WPA Pre-Shared Key=YxK3abUUipCuuIJax9MnJFy0S3nHAIg6dheFUr1Ufm2M8JdYyzB97sE0n4UOhFA0udhIPJjWMIvnOoFLxaNckkHzrjm5se5ApmfToMVLrenhfboqPxH4lTJS8o3f4avahJwbUb/amDcLoHN4Pr3M11XEWXfrR9lkWOT+UOueg8ZeU/4g7wq87sUHL47zs2alrNuA26Hr8VO6qJQUpZV5K1B1hc2oJBwyX5hqngeJ4x5N6O/F/kloJR1rPA2JYLi1xGhHyAM/evVbds0nlw5xWEkz0c5E/lV7T4swjhY0J5XAClN3U6aAVnY4xgQnn68XxT2pcF0jh5Fv1fC07suYLA==;
+WPA Group Rekey Interval=3600;
+RADIUS Server=0.0.0.0;
+RADIUS Port=1645;
+RADIUS Key=;
+Data Encryption (Off, WEP_64bit, WEP_128bit, TKIP, AES, TKIP+AES)=TKIP+AES;
+Shared Key Authentication(Optional or Required)=Optional;
+PassPhrase=;
+64 bits Key 1=COLMDXg8rzePoSy9ZyRhpqA4sR4s3p1jogdiyCTA3t1tI1Cz/xRTcLkeep48udCw/KbUo8Kl/Y8j9icTnpfEciGoL+kXI2qnkqcOGrV57VA5tv56ZiQbwXklCRyuQsKzZ42EzT7/2WI0MgTomzU+rnHX0gS8rvSA/ccqiBwFqzvLCBhlX1nRL+Kwxpdqx9Da8WbdJFgRhVpZ2MWb6z36EVxWYT0PgP4K3/Ziebfg+3+b8fj526xQ3nLs1kLr8EBW96Gf5Zlhv5Da1rvdthrEGJn6/fRm4Qqqo99bMVuCHmc9iJMDDe3G+VpbK1pw/SO7LatQ9uG9RGP9g2Xg4bNCmQ==;
+64 bits Key 2=COLMDXg8rzePoSy9ZyRhpqA4sR4s3p1jogdiyCTA3t1tI1Cz/xRTcLkeep48udCw/KbUo8Kl/Y8j9icTnpfEciGoL+kXI2qnkqcOGrV57VA5tv56ZiQbwXklCRyuQsKzZ42EzT7/2WI0MgTomzU+rnHX0gS8rvSA/ccqiBwFqzvLCBhlX1nRL+Kwxpdqx9Da8WbdJFgRhVpZ2MWb6z36EVxWYT0PgP4K3/Ziebfg+3+b8fj526xQ3nLs1kLr8EBW96Gf5Zlhv5Da1rvdthrEGJn6/fRm4Qqqo99bMVuCHmc9iJMDDe3G+VpbK1pw/SO7LatQ9uG9RGP9g2Xg4bNCmQ==;
+64 bits Key 3=COLMDXg8rzePoSy9ZyRhpqA4sR4s3p1jogdiyCTA3t1tI1Cz/xRTcLkeep48udCw/KbUo8Kl/Y8j9icTnpfEciGoL+kXI2qnkqcOGrV57VA5tv56ZiQbwXklCRyuQsKzZ42EzT7/2WI0MgTomzU+rnHX0gS8rvSA/ccqiBwFqzvLCBhlX1nRL+Kwxpdqx9Da8WbdJFgRhVpZ2MWb6z36EVxWYT0PgP4K3/Ziebfg+3+b8fj526xQ3nLs1kLr8EBW96Gf5Zlhv5Da1rvdthrEGJn6/fRm4Qqqo99bMVuCHmc9iJMDDe3G+VpbK1pw/SO7LatQ9uG9RGP9g2Xg4bNCmQ==;
+64 bits Key 4=COLMDXg8rzePoSy9ZyRhpqA4sR4s3p1jogdiyCTA3t1tI1Cz/xRTcLkeep48udCw/KbUo8Kl/Y8j9icTnpfEciGoL+kXI2qnkqcOGrV57VA5tv56ZiQbwXklCRyuQsKzZ42EzT7/2WI0MgTomzU+rnHX0gS8rvSA/ccqiBwFqzvLCBhlX1nRL+Kwxpdqx9Da8WbdJFgRhVpZ2MWb6z36EVxWYT0PgP4K3/Ziebfg+3+b8fj526xQ3nLs1kLr8EBW96Gf5Zlhv5Da1rvdthrEGJn6/fRm4Qqqo99bMVuCHmc9iJMDDe3G+VpbK1pw/SO7LatQ9uG9RGP9g2Xg4bNCmQ==;
+128 bits Key 1=7UrM8ejA/MzjE5UiVg31z45jBeL68wrI1NmA2ZU0ht+Pz5DKHm+nfPPPCoXG9MKmIhdmch2tir09wIA5ZirZvLG0oOaRkis9p4m3PLTcI8LM49CQ0gFzcnpky6SnG81VgV5qM11IdFrX2sHjFTJQF6u/bHogz7MSZDs7V0KyDklXJxu9nsthQaXqX06xa64CMsXAYgJ2kVkXyMmphHQqXnGJ0rlXWuB/6xM9+jT2Ml9hNiZiFrAykFnZriP7cFTPBX8+lnycUifRoe0AcDE2gE3z8ywCtMkvT+UJ7Pizyw57+FARtYM4eOapJHQ29gi1arKM1OJNhR68d7xeMTbMWw==;
+128 bits Key 2=7UrM8ejA/MzjE5UiVg31z45jBeL68wrI1NmA2ZU0ht+Pz5DKHm+nfPPPCoXG9MKmIhdmch2tir09wIA5ZirZvLG0oOaRkis9p4m3PLTcI8LM49CQ0gFzcnpky6SnG81VgV5qM11IdFrX2sHjFTJQF6u/bHogz7MSZDs7V0KyDklXJxu9nsthQaXqX06xa64CMsXAYgJ2kVkXyMmphHQqXnGJ0rlXWuB/6xM9+jT2Ml9hNiZiFrAykFnZriP7cFTPBX8+lnycUifRoe0AcDE2gE3z8ywCtMkvT+UJ7Pizyw57+FARtYM4eOapJHQ29gi1arKM1OJNhR68d7xeMTbMWw==;
+128 bits Key 3=7UrM8ejA/MzjE5UiVg31z45jBeL68wrI1NmA2ZU0ht+Pz5DKHm+nfPPPCoXG9MKmIhdmch2tir09wIA5ZirZvLG0oOaRkis9p4m3PLTcI8LM49CQ0gFzcnpky6SnG81VgV5qM11IdFrX2sHjFTJQF6u/bHogz7MSZDs7V0KyDklXJxu9nsthQaXqX06xa64CMsXAYgJ2kVkXyMmphHQqXnGJ0rlXWuB/6xM9+jT2Ml9hNiZiFrAykFnZriP7cFTPBX8+lnycUifRoe0AcDE2gE3z8ywCtMkvT+UJ7Pizyw57+FARtYM4eOapJHQ29gi1arKM1OJNhR68d7xeMTbMWw==;
+128 bits Key 4=7UrM8ejA/MzjE5UiVg31z45jBeL68wrI1NmA2ZU0ht+Pz5DKHm+nfPPPCoXG9MKmIhdmch2tir09wIA5ZirZvLG0oOaRkis9p4m3PLTcI8LM49CQ0gFzcnpky6SnG81VgV5qM11IdFrX2sHjFTJQF6u/bHogz7MSZDs7V0KyDklXJxu9nsthQaXqX06xa64CMsXAYgJ2kVkXyMmphHQqXnGJ0rlXWuB/6xM9+jT2Ml9hNiZiFrAykFnZriP7cFTPBX8+lnycUifRoe0AcDE2gE3z8ywCtMkvT+UJ7Pizyw57+FARtYM4eOapJHQ29gi1arKM1OJNhR68d7xeMTbMWw==;
+Current Network Key=1;
+#
+#Wireless Advanced
+#
+N Transmission Rate=Auto;
+CTS Protection Mode (Disable, Auto)=Off;
+Network Mode=B/G/N Mixed;
+54g(TM) Network Mode(54g Auto, 54g Performance, 54g LRS, 802.11b Only)=;
+Basic Rate Set(Default or All)=Default;
+54g(TM) Protection(Off, Auto)=Auto;
+XPress(TM) Technology(Enable or Disable)=Disable;
+Afterburner(TM) Technology(Enable or Disable)=Disable;
+Rate(Auto, 1.0, 2.0, 5.5, 6.0, 9.0, 11.0, 12.0, 18.0, 24.0, 36.0, 48.0, 54.0)=Auto;
+Output Power(25, 50, 75 or 100)=100;
+Beacon Interval=100;
+DTIM Interval=1;
+Fragmentation Threshold=2346;
+RTS Threshold=2347;
+Short Retry Limit=7;
+Long Retry Limit=4;
+Prefix Type=5;
+Prefix SSID=Ziggo;
+#
+#Wireless Access
+#
+Closed Network (On or Off)=Off;
+Restrict access to List (Disable, Allow or Deny)=Disable;
+Restrict MAC0=00:00:00:00:00:00;
+Restrict MAC1=00:00:00:00:00:00;
+Restrict MAC2=00:00:00:00:00:00;
+Restrict MAC3=00:00:00:00:00:00;
+Restrict MAC4=00:00:00:00:00:00;
+Restrict MAC5=00:00:00:00:00:00;
+Restrict MAC6=00:00:00:00:00:00;
+Restrict MAC7=00:00:00:00:00:00;
+Restrict MAC8=00:00:00:00:00:00;
+Restrict MAC9=00:00:00:00:00:00;
+Restrict MAC10=00:00:00:00:00:00;
+Restrict MAC11=00:00:00:00:00:00;
+Restrict MAC12=00:00:00:00:00:00;
+Restrict MAC13=00:00:00:00:00:00;
+Restrict MAC14=00:00:00:00:00:00;
+Restrict MAC15=00:00:00:00:00:00;
+Restrict MAC16=00:00:00:00:00:00;
+Restrict MAC17=00:00:00:00:00:00;
+Restrict MAC18=00:00:00:00:00:00;
+Restrict MAC19=00:00:00:00:00:00;
+Restrict MAC20=00:00:00:00:00:00;
+Restrict MAC21=00:00:00:00:00:00;
+Restrict MAC22=00:00:00:00:00:00;
+Restrict MAC23=00:00:00:00:00:00;
+Restrict MAC24=00:00:00:00:00:00;
+Restrict MAC25=00:00:00:00:00:00;
+Restrict MAC26=00:00:00:00:00:00;
+Restrict MAC27=00:00:00:00:00:00;
+Restrict MAC28=00:00:00:00:00:00;
+Restrict MAC29=00:00:00:00:00:00;
+Restrict MAC30=00:00:00:00:00:00;
+Restrict MAC31=00:00:00:00:00:00;
+#
+#Wireless WPS
+#
+WPS Config(Enable or Disable)=Disable;
+WPS Device Name=;
+WPS STA PIN=94380507;
+WPS Method=PIN mod;
+#
+#Wireless Bridging
+#
+Wireless Bridging(Enable or Disable)=Disable;
+Wireless Bridging MAC(1)=00:00:00:00:00:00;
+Wireless Bridging MAC(2)=00:00:00:00:00:00;
+Wireless Bridging MAC(3)=00:00:00:00:00:00;
+Wireless Bridging MAC(4)=00:00:00:00:00:00;
+#
+#Wireless WMM
+#
+WMM Support(On or Off)=On;
+No-Acknowledgement(On or Off)=Off;
+Power Save Support(On or Off)=On;
+EDCA AP AC_BE CWmin=15;
+EDCA AP AC_BK CWmin=15;
+EDCA AP AC_VI CWmin=7;
+EDCA AP AC_VO CWmin=3;
+EDCA AP AC_BE CWmax=63;
+EDCA AP AC_BK CWmax=1023;
+EDCA AP AC_VI CWmax=15;
+EDCA AP AC_VO CWmax=7;
+EDCA AP AC_BE AIFSN=3;
+EDCA AP AC_BK AIFSN=7;
+EDCA AP AC_VI AIFSN=1;
+EDCA AP AC_VO AIFSN=1;
+EDCA AP AC_BE TXOP(b)=0;
+EDCA AP AC_BK TXOP(b)=0;
+EDCA AP AC_VI TXOP(b)=6016;
+EDCA AP AC_VO TXOP(b)=3264;
+EDCA AP AC_BE TXOP(a/g)=0;
+EDCA AP AC_BK TXOP(a/g)=0;
+EDCA AP AC_VI TXOP(a/g)=3008;
+EDCA AP AC_VO TXOP(a/g)=1504;
+EDCA AP AC_BE Discard Oldest First=Off;
+EDCA AP AC_BK Discard Oldest First=Off;
+EDCA AP AC_VI Discard Oldest First=Off;
+EDCA AP AC_VO Discard Oldest First=Off;
+EDCA STA AC_BE CWmin=15;
+EDCA STA AC_BK CWmin=15;
+EDCA STA AC_VI CWmin=7;
+EDCA STA AC_VO CWmin=3;
+EDCA STA AC_BE CWmax=1023;
+EDCA STA AC_BK CWmax=1023;
+EDCA STA AC_VI CWmax=15;
+EDCA STA AC_VO CWmax=7;
+EDCA STA AC_BE AIFSN=3;
+EDCA STA AC_BK AIFSN=7;
+EDCA STA AC_VI AIFSN=2;
+EDCA STA AC_VO AIFSN=2;
+EDCA STA AC_BE TXOP(b)=0;
+EDCA STA AC_BK TXOP(b)=0;
+EDCA STA AC_VI TXOP(b)=6016;
+EDCA STA AC_VO TXOP(b)=3264;
+EDCA STA AC_BE TXOP(a/g)=0;
+EDCA STA AC_BK TXOP(a/g)=0;
+EDCA STA AC_VI TXOP(a/g)=3008;
+EDCA STA AC_VO TXOP(a/g)=1504;
+#
+#IP Filtering
+#
+IP Address Start[0]=0.0.0.0;
+IP Address End[0]=0.0.0.0;
+Enable or Disable[0]=Disable;
+IP Address Start[1]=0.0.0.0;
+IP Address End[1]=0.0.0.0;
+Enable or Disable[1]=Disable;
+IP Address Start[2]=0.0.0.0;
+IP Address End[2]=0.0.0.0;
+Enable or Disable[2]=Disable;
+IP Address Start[3]=0.0.0.0;
+IP Address End[3]=0.0.0.0;
+Enable or Disable[3]=Disable;
+IP Address Start[4]=0.0.0.0;
+IP Address End[4]=0.0.0.0;
+Enable or Disable[4]=Disable;
+IP Address Start[5]=0.0.0.0;
+IP Address End[5]=0.0.0.0;
+Enable or Disable[5]=Disable;
+IP Address Start[6]=0.0.0.0;
+IP Address End[6]=0.0.0.0;
+Enable or Disable[6]=Disable;
+IP Address Start[7]=0.0.0.0;
+IP Address End[7]=0.0.0.0;
+Enable or Disable[7]=Disable;
+IP Address Start[8]=0.0.0.0;
+IP Address End[8]=0.0.0.0;
+Enable or Disable[8]=Disable;
+IP Address Start[9]=0.0.0.0;
+IP Address End[9]=0.0.0.0;
+Enable or Disable[9]=Disable;
+#
+#Mac Filtering
+#
+Enable or Disable=Enable;
+List Status=Pass;
+MAC Address Filter[0]=e0:91:f5:b4:1b:3e;
+MAC Address Filter[1]=e0:91:f5:b4:1b:3f;
+MAC Address Filter[2]=90:fb:a6:49:6e:e7;
+MAC Address Filter[3]=b8:88:e3:43:19:26;
+MAC Address Filter[4]=08:ed:b9:f9:0b:6f;
+MAC Address Filter[5]=00:f4:b9:2f:06:25;
+MAC Address Filter[6]=90:27:e4:ea:48:19;
+MAC Address Filter[7]=58:b0:35:ff:be:3f;
+MAC Address Filter[8]=44:4c:0c:d3:71:a2;
+MAC Address Filter[9]=84:fc:fe:d8:bf:8e;
+MAC Address Filter[10]=00:1d:ba:b2:7e:34;
+MAC Address Filter[11]=00:00:00:00:00:00;
+MAC Address Filter[12]=00:00:00:00:00:00;
+MAC Address Filter[13]=00:00:00:00:00:00;
+MAC Address Filter[14]=00:00:00:00:00:00;
+MAC Address Filter[15]=00:00:00:00:00:00;
+MAC Address Filter[16]=00:00:00:00:00:00;
+MAC Address Filter[17]=00:00:00:00:00:00;
+MAC Address Filter[18]=00:00:00:00:00:00;
+MAC Address Filter[19]=00:00:00:00:00:00;
+#
+#Port Filtering
+#
+Start Port[0]=0;
+End Port[0]=0;
+Protocol(TCP,UDP,BOTH)[0]=BOTH;
+Enable or Disable[0]=Disable;
+Start Port[1]=0;
+End Port[1]=0;
+Protocol(TCP,UDP,BOTH)[1]=BOTH;
+Enable or Disable[1]=Disable;
+Start Port[2]=0;
+End Port[2]=0;
+Protocol(TCP,UDP,BOTH)[2]=BOTH;
+Enable or Disable[2]=Disable;
+Start Port[3]=0;
+End Port[3]=0;
+Protocol(TCP,UDP,BOTH)[3]=BOTH;
+Enable or Disable[3]=Disable;
+Start Port[4]=0;
+End Port[4]=0;
+Protocol(TCP,UDP,BOTH)[4]=BOTH;
+Enable or Disable[4]=Disable;
+Start Port[5]=0;
+End Port[5]=0;
+Protocol(TCP,UDP,BOTH)[5]=BOTH;
+Enable or Disable[5]=Disable;
+Start Port[6]=0;
+End Port[6]=0;
+Protocol(TCP,UDP,BOTH)[6]=BOTH;
+Enable or Disable[6]=Disable;
+Start Port[7]=0;
+End Port[7]=0;
+Protocol(TCP,UDP,BOTH)[7]=BOTH;
+Enable or Disable[7]=Disable;
+Start Port[8]=0;
+End Port[8]=0;
+Protocol(TCP,UDP,BOTH)[8]=BOTH;
+Enable or Disable[8]=Disable;
+Start Port[9]=0;
+End Port[9]=0;
+Protocol(TCP,UDP,BOTH)[9]=BOTH;
+Enable or Disable[9]=Disable;
+#
+#Port Forwarding
+#
+Local IP[0]=192.168.178.21;
+Start Port[0]=22;
+End Port[0]=22;
+Protocol(TCP,UDP,BOTH)[0]=TCP;
+Enable or Disable[0]=Enable;
+Local IP[1]=192.168.178.21;
+Start Port[1]=3000;
+End Port[1]=3000;
+Protocol(TCP,UDP,BOTH)[1]=BOTH;
+Enable or Disable[1]=Enable;
+Local IP[2]=0.0.0.0;
+Start Port[2]=0;
+End Port[2]=0;
+Protocol(TCP,UDP,BOTH)[2]=TCP;
+Enable or Disable[2]=Disable;
+Local IP[3]=0.0.0.0;
+Start Port[3]=0;
+End Port[3]=0;
+Protocol(TCP,UDP,BOTH)[3]=TCP;
+Enable or Disable[3]=Disable;
+Local IP[4]=0.0.0.0;
+Start Port[4]=0;
+End Port[4]=0;
+Protocol(TCP,UDP,BOTH)[4]=TCP;
+Enable or Disable[4]=Disable;
+Local IP[5]=0.0.0.0;
+Start Port[5]=0;
+End Port[5]=0;
+Protocol(TCP,UDP,BOTH)[5]=TCP;
+Enable or Disable[5]=Disable;
+Local IP[6]=0.0.0.0;
+Start Port[6]=0;
+End Port[6]=0;
+Protocol(TCP,UDP,BOTH)[6]=TCP;
+Enable or Disable[6]=Disable;
+Local IP[7]=0.0.0.0;
+Start Port[7]=0;
+End Port[7]=0;
+Protocol(TCP,UDP,BOTH)[7]=TCP;
+Enable or Disable[7]=Disable;
+Local IP[8]=0.0.0.0;
+Start Port[8]=0;
+End Port[8]=0;
+Protocol(TCP,UDP,BOTH)[8]=TCP;
+Enable or Disable[8]=Disable;
+Local IP[9]=0.0.0.0;
+Start Port[9]=0;
+End Port[9]=0;
+Protocol(TCP,UDP,BOTH)[9]=TCP;
+Enable or Disable[9]=Disable;
+#
+#Port Trigger
+#
+Start Trigger Port[0]=0;
+End Trigger Port[0]=0;
+Start Port[0]=0;
+End Port[0]=0;
+Protocol(TCP,UDP,BOTH)[0]=TCP;
+Enable or Disable[0]=Disable;
+Start Trigger Port[1]=0;
+End Trigger Port[1]=0;
+Start Port[1]=0;
+End Port[1]=0;
+Protocol(TCP,UDP,BOTH)[1]=TCP;
+Enable or Disable[1]=Disable;
+Start Trigger Port[2]=0;
+End Trigger Port[2]=0;
+Start Port[2]=0;
+End Port[2]=0;
+Protocol(TCP,UDP,BOTH)[2]=TCP;
+Enable or Disable[2]=Disable;
+Start Trigger Port[3]=0;
+End Trigger Port[3]=0;
+Start Port[3]=0;
+End Port[3]=0;
+Protocol(TCP,UDP,BOTH)[3]=TCP;
+Enable or Disable[3]=Disable;
+Start Trigger Port[4]=0;
+End Trigger Port[4]=0;
+Start Port[4]=0;
+End Port[4]=0;
+Protocol(TCP,UDP,BOTH)[4]=TCP;
+Enable or Disable[4]=Disable;
+Start Trigger Port[5]=0;
+End Trigger Port[5]=0;
+Start Port[5]=0;
+End Port[5]=0;
+Protocol(TCP,UDP,BOTH)[5]=TCP;
+Enable or Disable[5]=Disable;
+Start Trigger Port[6]=0;
+End Trigger Port[6]=0;
+Start Port[6]=0;
+End Port[6]=0;
+Protocol(TCP,UDP,BOTH)[6]=TCP;
+Enable or Disable[6]=Disable;
+Start Trigger Port[7]=0;
+End Trigger Port[7]=0;
+Start Port[7]=0;
+End Port[7]=0;
+Protocol(TCP,UDP,BOTH)[7]=TCP;
+Enable or Disable[7]=Disable;
+Start Trigger Port[8]=0;
+End Trigger Port[8]=0;
+Start Port[8]=0;
+End Port[8]=0;
+Protocol(TCP,UDP,BOTH)[8]=TCP;
+Enable or Disable[8]=Disable;
+Start Trigger Port[9]=0;
+End Trigger Port[9]=0;
+Start Port[9]=0;
+End Port[9]=0;
+Protocol(TCP,UDP,BOTH)[9]=TCP;
+Enable or Disable[9]=Disable;
+#
+#Override Password
+#
+Parental Password=P2+MiMJMWBd2Io1oec6YxvPlA9jzCfFoSS6fLGZAWZYKyshXBpZjeH6GaMM7PkVzrDMbUiyQYCrpYlEcXh405geSt4Nd1ITjLSg5LsuqZxs0UFR0BXg1z7GSL7Vw6QpZm61sPK3/3rSh6qd7Hnq6Y9v5086XKshIsIrgID7csFbUh4UeOwcjrdoUDJAPOOz9xjwvcJtO/Y6OC+S87nkKz59PuZIaF4hPy3HhkXlIvMz3SMvI8zvKfTWP4H5UuxzGSmEpmAikWFwqzGNWo4q6RLKaUdJArpfgp/dJiDdkJC+mWuWKPmUFn4XQPyDVnYT2TVWRC1pA+8sykM+0fJiqAw==;
+Override Duration=30;
+#
+#Parental Control User
+#
+User Name=Default;
+User Enabled (Enable or Disable)=Disable;
+User Trusted (Enable or Disable)=Disable;
+User Password=;
+Content Rule Index=0;
+Content Rule Index=0;
+Session Duration(min)=0;
+Inactivity Time(min)=0;
+User Name=susy;
+User Enabled (Enable or Disable)=Enable;
+User Trusted (Enable or Disable)=Enable;
+User Password=CnYraSivqVfpU/H+Os7i+L4s/k184GGenzm2OPtMD1MgS9I2Fv7XCOeh1RtAh3/PVTGBU9T8EfZxgjDvJXwUqcVl0P23TN87Op9jaTbpMq0mvvLurd+akgPgZJiIKskGGLrkKmhssQ5T0EBxZBGrSXBmJjgPaImmBD9Iyw9UsPCwXV/ZujQfEsJ60mjaeE9OO+HbqNu0We9yYGjajWxlUpRQhLs6AqoM3RIO8eXnwLsb7mVjwhrIhkBo9w09uTB+Ug0yAcpXts+CwgYLk46Su3GBP+gBcr0JkkZ5t7np+pQwNajrRZ7e0Wd4Rg9zeiugVga4oSp6KVaA9UQuIN+4Bw==;
+Content Rule Index=;
+Content Rule Index=;
+Session Duration(min)=1440;
+Inactivity Time(min)=60;
+User Name=test;
+User Enabled (Enable or Disable)=Enable;
+User Trusted (Enable or Disable)=Disable;
+User Password=mljDEqD33XqvJNwFGMV65mSSM3gIGoQGxLOAcNGFqccAlcGVvLyp0reCTpHtkAxXZbFt07IoLMY2dyBKqxnZuMDsMpnfNXKXpjJxErwgxCRPzYnD/BfuQmCgMJ5A9DlDa5vq8zCx45t+ryb5r6X7EK6LAyWXOIGI/QTenDXypXVBrev06Sa8gChbhly/8wgKkgg5y8nTDTSg/6QvlrrsYwN+LMp3YlZJOPLvQMsGQKMn2KENOfbraP1OlLZVMgqW/BaT+12bv9sfzI1hzuKCuBXCjjowYgLPhBtRHmbtiV4QiHyAFez5HufzR3HabL10Jvw/dnPJOUQIZrtja4jx3g==;
+Content Rule Index=0;
+Content Rule Index=0;
+Session Duration(min)=1440;
+Inactivity Time(min)=60;
+#
+#Parental Control Content Rule
+#
+Parental Control Enable=Disable;
+Access Duration=30;
+Content Rule Name=Default;
+Block Keyword[0]=anonymizer;
+Block Domain[0]=anonymizer.com;
+Allowed Domain[0]=;
+#
+#VPN settings
+#
+IPsec Enable=Enable;
+#
+#VPN Tunnel Entries
+#
+; 

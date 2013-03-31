@@ -1,0 +1,68 @@
+(ns com.solobit.clojure.practice.showcase
+  (:import java.util.Date))
+
+  ;(:use [clojure.contrib.def :only (defvar-)])
+  ;(:require [clojure.contrib.shell-out :as shell]))
+
+; In mathematics, an elementary function is a function of one variable built from a finite number of exponentials, logarithms, constants, and nth roots through composition and combinations using the four elementary operations (+ – × ÷). By allowing these functions (and constants) to be complex numbers, trigonometric functions and their inverses become included in the elementary functions (see trigonometric functions and complex exponentials).
+
+; unary numerals
+; represent the number 6 by repeating 1 symbol
+; 6 = let x be 1 -> xxxxxx
+; then any number becomes easily subtracted or addition
+; 6 - 2 = xxxx|xx (split)
+; 4 + 3 = xxxxxxx (push)
+; (as the romans iii = 3, but not 5 = V but IIIII)
+
+; unary function, only 1 argument = fun(a) or fn(b) but not fn(a, b) or func(1,2,3,4)
+
+; unary operaTOR = subset of unary FUNCTION
+; 'a++' here a is an operaND which is operaTED by a unary operaTOR
+; a=a+1 is another FORM in which it can be written
+; many elementary functions are unary functions
+
+
+
+;(defstruct player :name )
+  
+; updating the pieces left from the initial stack
+; doesn't HAVE to be state (atom) but allows for tracking ind. pieces
+; should be updated AFTER the moves because you don't know yet if 
+; all can be placed
+(def p1-pieces (repeatedly 15 #(atom nil)))
+(def p2-pieces (repeatedly 15 #(atom nil)))
+
+;(defn update-stack [new-amount] (reset! p1-pieces new-amount))
+
+(def board (atom '(0 0 0 0 0 0)))
+(println @board)
+
+(clojure.repl/doc atom)
+
+
+(list 1 2 3)
+
+(list* 1 2 '(3 4 5)) ; last arg in list is sequence to append
+  
+  
+(defn roll [player dice] 
+  
+  "Roll n amount of dices each with 6 sides and equally numbered values on them.
+  The lowest value should always come out first."  
+  
+  (sort (repeatedly dice #(+ (rand-int 6) 1))))
+
+
+
+
+(repeatedly 15 #(seq nil))
+
+
+;(println (cons 1 2))
+
+;(repeatedly 5 (roll 2))
+(roll 1 2)
+
+
+
+;(repeat '(nil) 4)

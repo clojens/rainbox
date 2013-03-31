@@ -1,0 +1,80 @@
+
+
+(ns tric-trac
+  (:require clojure.repl))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(defn indexes-of [e coll] (keep-indexed #(if (= e %2) %1) coll)) 
+
+(first (indexes-of "a" (list "a" "a" "b")))
+
+(def p1 {:name 'player1
+         :mods +1
+         :chip 15
+         })
+
+
+(def p2 {:name 'player2
+         :mods -1
+         :chip 15
+         })
+
+(def board [0 0 0 0 0 0])
+
+(.indexOf (apply str (list "a" "b" "c")) "c")
+
+(def arena (fn [] "abc"))
+
+
+
+
+(println p1)
+
+
+
+(def m1 
+ "The base value of every field is zero."
+  [
+  [0 0 0 0 0 0]
+  [0 0 0 0 0 0]
+  [0 0 0 0 0 0]
+  [0 0 0 0 0 0]     
+  ])
+
+
+(def m2
+ "And we may also weigh certain fields"
+  [
+   [0  0  0  0  0  0] ; (1) start1, finish2
+   [10 8  0  0  0  0]
+   [0  0  0  0  10 8]
+   [0  0  0  0  0  0] ; (2) start2, finish1
+   ])
+
+(comment "Notice a few things. Weighed values, because we need a strategy and numbers to work with.
+  Or use 1 long list?")
+
+;(repeat 4 (list 0 0 0 0 0 0))

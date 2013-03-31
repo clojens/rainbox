@@ -1,0 +1,148 @@
+View this installation guide online at
+https://wiki.archlinux.org/index.php/Installation_Guide
+
+   As of the 2012.07.15 installation media release, AIF (the Arch
+   Installation Framework) is no longer included but instead Arch Install
+   Scripts are provided to aid in the installation process. This article
+   summarizes the install process using these scripts. See the Beginners'
+   Guide instead for a walkthrough aimed at new users.
+
+Contents
+
+     * 1 Download
+     * 2 Keyboard layout
+     * 3 Partition disks
+     * 4 Format partitions
+     * 5 Mount the partitions
+     * 6 Connect to the internet
+          + 6.1 Wireless
+     * 7 Install the base system
+     * 8 Install a bootloader
+          + 8.1 GRUB
+          + 8.2 Syslinux
+     * 9 Configure system
+     * 10 Unmount leftovers
+
+Download
+
+   Download the new Arch Linux ISO from the Arch Linux download page.
+     * Instead of six different images we only provide a single one which
+       can be booted into an i686 and x86_64 live system to install Arch
+       Linux over the network. Media containing the [core] repository are
+       no longer provided.
+     * Install images are signed and it is highly recommend to verify
+       their signature before use. On Arch Linux, this can be done by
+       using
+pacman-key -v <iso-file>.sig
+     * The image can be burned to a CD, mounted as an ISO file, or
+       directly written to a USB stick using a utility like dd. It is
+       intended for new installations only; an existing Arch Linux system
+       can always be updated with pacman -Syu.
+
+Keyboard layout
+
+   For many countries and keyboard types appropriate keymaps are available
+   already, and a command like loadkeys uk might do what you want. More
+   available keymap files can be found in /usr/share/kbd/keymaps/ (you can
+   omit the keymap path and file extension when using loadkeys).
+
+Partition disks
+
+   See partitioning for details.
+
+   Remember to create any stacked block devices like LVM, LUKS, or RAID.
+
+Format partitions
+
+   See here for details.
+
+   If you are using (U)EFI you will most probably need another partition
+   to host the UEFI System partition. Read this article.
+
+Mount the partitions
+
+   We now must mount the root partition on /mnt. You should also create
+   directories for and mount any other partitions (/mnt/boot, /mnt/home,
+   ...) if you want them to be detected by genfstab.
+
+Connect to the internet
+
+   Assuming a wired connection, running dhclient or dhcpcd is sufficient
+   to get a lease. For more info visit configuring network.
+
+  Wireless
+
+   Run wifi-menu to set up your wireless network. For details, see
+   Wireless Setup and Netcfg.
+
+Install the base system
+
+   Before installing, you may want to edit /etc/pacman.d/mirrorlist such
+   that your preferred mirror is first. This copy of the mirrorlist will
+   be installed on your new system by pacstrap as well, so it's worth
+   getting it right.
+
+   Using the pacstrap script we install the base system. The base-devel
+   package group should also be installed if you plan on compiling
+   software from the AUR or using ABS.
+# pacstrap /mnt base base-devel
+
+   Other packages can be installed by appending their names to the above
+   command (space seperated), including the bootloader if you want.
+
+Install a bootloader
+
+  GRUB
+
+     * For BIOS:
+
+# pacstrap /mnt grub-bios
+
+     * For EFI (in rare cases you will need grub-efi-i386 instead):
+
+# pacstrap /mnt grub-efi-x86_64
+
+     * Install GRUB after chrooting (refer to Configure system section).
+
+  Syslinux
+
+# pacstrap /mnt syslinux
+
+Configure system
+
+   Generate an fstab with the following command (if you prefer to use
+   UUIDs or labels, add the -U or -L option, respectively):
+# genfstab -p /mnt >> /mnt/etc/fstab
+
+   Next we chroot into our newly installed system:
+# arch-chroot /mnt
+
+     * Write your hostname to /etc/hostname.
+     * Symlink /etc/localtime to /usr/share/zoneinfo/Zone/SubZone. Replace
+       Zone and Subzone to your liking. For example:
+
+# ln -s /usr/share/zoneinfo/Europe/Athens /etc/localtime
+
+     * Set locale preferences in /etc/locale.conf.
+     * Add console keymap and font preferences in /etc/vconsole.conf
+     * Uncomment the selected locale in /etc/locale.gen and generate it
+       with locale-gen.
+     * Configure /etc/mkinitcpio.conf as needed (see mkinitcpio) and
+       create an initial RAM disk with:
+
+# mkinitcpio -p linux
+
+     * Configure the bootloader: refer back to the appropriate article
+       from the bootloader installation section.
+
+     * Set a root password with passwd.
+
+Unmount leftovers
+
+   If you are still in the chroot environment type exit or press Ctrl+D in
+   order to exit. Earlier we mounted the partitions under /mnt. In this
+   step we will unmount them:
+# umount /mnt/{boot,home,}
+
+   Finally reboot and configure your system as explained in Beginners'
+   Guide/Post-Installation.

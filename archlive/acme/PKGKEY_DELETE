@@ -1,0 +1,6 @@
+/home/baal/.gnupg/pubring.gpg
+-----------------------------
+pub   2048R/79327907 2013-03-25
+uid                  R. Jentzema (My personal key for signing AUR packages.) <rob.jentzema+archlinux@googlemail.com>
+sub   2048R/95870789 2013-03-25
+

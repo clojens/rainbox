@@ -1,0 +1,38 @@
+edit /etc/pacman.d/mirrorlist 
+
+pacstrap /mnt base base-devel
+
+pacstrap /mnt grub-bios
+
+Generate an fstab with the following command (if you prefer to use
+   UUIDs or labels, add the -U or -L option, respectively):
+
+genfstab -p /mnt >> /mnt/etc/fstab
+
+arch-chroot /mnt
+
+ln -s /usr/share/zoneinfo/Europe/Amsterdam /etc/localtime
+
+Set locale preferences in /etc/locale.conf.
+
+/etc/vconsole.conf
+
+Configure /etc/mkinitcpio.conf as needed (see mkinitcpio) and
+       create an initial RAM disk with:
+
+mkinitcpio -p linux
+
+
+
+
+
+     * Configure the bootloader: refer back to the appropriate article
+       from the bootloader installation section.
+
+     * Set a root password with passwd.
+
+
+umount /mnt/{boot,home,}
+
+   Finally reboot and configure your system as explained in Beginners'
+   Guide/Post-Installation.

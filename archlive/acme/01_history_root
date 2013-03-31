@@ -1,0 +1,197 @@
+    1  ln -s /usr/share/zoneinfo/Europe/Amsterdam /etc/localtime
+    2  nano /etc/locale.conf
+    3  cat install.txt 
+    4  echo "ares" etc/hostname
+    5  echo "ares" > etc/hostname
+    6  cat etc/hostname
+    7  nano /etc/locale.gen 
+    8  locale-gen 
+    9  cat inst
+   10  cat inst2 
+   11  nano /etc/vconsole.conf
+   12  cat inst2 
+   13  pacman -Syu
+   14  pacman -Syu
+   15  pacman -Syyu
+   16  pacman -Sy chromium
+   17  cat inst2
+   18  mkinitcpio -p linux
+   19  pacman -Sy nvidia
+   20  pacman -Sy virtualbox
+   21  pacman -Sy virtualbox
+   22  pacman -Sy gnugp
+   23  pacman -Sy gpg
+   24  pacman -Sy gnugpg
+   25  pacman -Sy gpg
+   26  pacman -Sy gnupg
+   27  pacman -Q keyring
+   28  pacman -Qs keyring
+   29  pacman -Q -h
+   30  pacman -Qs ssh
+   31  pacman -Sy yaourt
+   32  pacman -Sy ssh
+   33  pacman -Sy libssh2
+   34  pacman -Sy zsh
+   35  cat inst2
+   36  nano etc/mkinitcpio.conf 
+   37  mkinitcpio -p linux
+   38  nano etc/mkinitcpio.conf 
+   39  mkinitcpio -p linux
+   40  grub-install /dev/sdb1
+   41  grub-install /dev/sdb
+   42  grub-mkconfig > /boot/grub/grub.cfg
+   43  cat inst2
+   44  passwd
+   45  passwd
+   46  passwd
+   47  pacman -Sy xinit
+   48  nano /etc/resolv.conf 
+   49  reboot
+   50  pacman -Syu
+   51  zsh
+   52  pacman -Sy htop
+   53  systemctl enable netcfg.service
+   54  zsh
+   55  netcfg -h
+   56  netcfg -a
+   57  netcfg all-resume
+   58  ls /
+   59  ls /run/
+   60  htop
+   61  top
+   62  ip
+   63  ip link
+   64  ls /dev
+   65  reboot
+   66  ip
+   67  ip addr
+   68  ip link enp0s25 down
+   69  ip link help
+   70  ip link set enp0s25 down
+   71  ip addr
+   72  ip link set eth0 down
+   73  ip addr
+   74  ls /etc/network.d/interfaces/
+   75  nano /etc/netconfig 
+   76  nano /etc/host
+   77  nano /etc/hostname 
+   78  nano /etc/hosts
+   79  ip addr
+   80  ip addr add 192.168.178.21 dev enp0s25
+   81  ifconfig 
+   82  ifconfig enp0s25 up
+   83  ifconfig
+   84  pacman -Syu
+   85  ifconfig
+   86  ip 
+   87  nano /etc/network.d/ethernet-static 
+   88  netcfg all-resume
+   89  netcfg 
+   90  ls /etc/network.d/
+   91  netcfg -u ethernet-static
+   92  nano /etc/network.d/ethernet-static 
+   93  ip link set enp0s25 up
+   94  ip
+   95  ifconfig enp0s25 192.168.178.21 netmask 255.255.255.0 broadcast 192.168.178.255
+   96  ifconfig 
+   97  ping www.google.com
+   98  ifconfig enp0s25 down
+   99  ifconfig enp0s25 up
+  100  ifconfig 
+  101  ping www.google.com
+  102  ifconfig 
+  103  systemctl
+  104  systemctl start netcfg.service
+  105  systemctl status netcfg.service
+  106  systemctl disable netcfg.service
+  107  systemd-analyze blame
+  108  pacman -Qs readahead
+  109  chmod 0600 /etc/network.d/ethernet-static 
+  110  chown root /etc/network.d/ethernet-static
+  111  la /etc/network.d/ethernet-static
+  112  vim ~/.bashrc
+  113  nano ~/.bashrc
+  114  source ~/.bashrc
+  115  la
+  116  useradd
+  117  useradd baal
+  118  userdel baal
+  119  adduser baal
+  120  useradd -m -s /bin/zsh baal
+  121  id baal
+  122  su baal
+  123  cp -av /home/susy/etc/skel/ /etc
+  124  cpan
+  125  netcfg
+  126  netcfg all-resume
+  127  ifconfig 
+  128  ping http://www.google.com
+  129  host
+  130  hostname
+  131  hostname -fqdn
+  132  hostname --fqdn
+  133  cat /home/susy/etc/sysctl.conf 
+  134  cp /home/susy/etc/sysctl.conf /etc
+  135  sysctl 
+  136  sysctl -p /etc/sysctl.conf 
+  137  sysctl
+  138  sysctl -a
+  139  nano /etc/sysctl.conf 
+  140  mkinitcpio -M
+  141  nano /etc/modprobe.d/blacklist.conf
+  142  mkinitcpio -M
+  143  mkinitcpio -M|grep mei
+  144  nano /etc/modprobe.d/blacklist.conf
+  145  systemctl reboot
+  146  ifconfig 
+  147  ifconfig enp0s25 up
+  148  ifconfig 
+  149  ping google.com
+  150  ping www.google.com
+  151  dmesg|grep wdt
+  152  ls /etc/udev/rules.d/
+  153  nano /etc/udev/udev.conf 
+  154  cat /sys/class/net/device-name/address
+  155  cat /sys/class/net/enp0s25/address 
+  156  cat /sys/class/net/enp0s25/address >> /etc/udev/rules.d/80-net-name-slot.rules
+  157  nano /etc/udev/rules.d/80-net-name-slot.rules
+  158  nano /etc/network.d/ethernet-static
+  159  reboot
+  160  ls /usr/share/kbd/consolefonts/
+  161  setfont lat1-10
+  162  setfont lat1-11
+  163  setfont lat1-9
+  164  setfont lat1-12
+  165  setfont lat1-14
+  166  setfont lat1-16
+  167  echo lat1-16 >> /etc/vconsole.conf
+  168  nano /etc/vconsole.conf
+  169  mkinitcpio
+  170  mkinitcpio -p linux
+  171  grub-mkconfig > /boot/grub/grub.conf
+  172  grub-mkconfig > /boot/grub/grub.cfg
+  173  rm /boot/grub/grub.conf 
+  174  grub-mkconfig > /boot/grub/grub.cfg
+  175  reboot
+  176  echo $FONT
+  177  setfont lat1-16
+  178  ifconfig
+  179  ifconfig eth0 up
+  180  ifconfig internet1 up
+  181  ifconfig 
+  182  ip addr add 192.168.178.1 netmask 255.255.255.0 dev internet1
+  183  ip addr add 192.168.178.1 netmask 255.255.255.0 broadcast 192.168.178.255
+  184  ifconfig internet1 192.168.178.1 netmask 255.255.255.0 broadcast 192.168.178.255
+  185  ifconfig 
+  186  ifconfig internet1 down
+  187  ifconfig internet1 up
+  188  dmesg
+  189  dmesg|tail
+  190  cat /etc/sysctl.conf|grep ipv6
+  191  nano /etc/sysctl.conf 
+  192  sysctl
+  193  sysctl -a
+  194  sysctl -p
+  195  reboot
+  196  history
+  197  history > /home/baal/01_history_root

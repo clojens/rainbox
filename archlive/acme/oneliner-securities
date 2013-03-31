@@ -1,0 +1,3 @@
+alias sec-filecheck="sudo find / \( -perm +2000 -o -perm +4000 \) -ls"
+alias sec-fileus="sudo find / -user root -perm "-u+s""
+alias sec-lsdev="lsblk -f"
